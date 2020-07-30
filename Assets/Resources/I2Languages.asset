@@ -1,0 +1,1700 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: Game_name
+      TermType: 0
+      Description: '**EN only**'
+      Languages:
+      - Beyond The End
+      - Beyond The End
+      - Beyond The End
+      - Beyond The End
+      - Beyond The End
+      - Beyond The End
+      - Beyond The End
+      - Beyond The End
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Options
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u9009\u9879"
+      - "\u30AA\u30D7\u30B7\u30E7\u30F3"
+      - "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
+      - Opciones
+      - "Op\xE7\xF5es"
+      - Options
+      - "\u062E\u064A\u0627\u0631\u0627\u062A"
+      - Options
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Close
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u5173\u95ED"
+      - "\u9589\u3058\u308B"
+      - "\u0417\u0430\u043A\u0440\u044B\u0442\u044C"
+      - Cerrar
+      - Fechar
+      - Close
+      - "\u0625\u063A\u0644\u0627\u0642"
+      - Close
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Language_name
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u4E2D\u6587"
+      - "\u65E5\u672C\u8A9E"
+      - "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+      - "Espa\xF1ol"
+      - "Portugu\xEAs"
+      - Hindi
+      - "\u0627\u0644\u0639\u0631\u0628\u064A\u0629"
+      - Indonesian
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Language
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u8BED\u8A00"
+      - "\u8A00\u8A9E"
+      - "\u042F\u0417\u042B\u041A"
+      - IDIOMA
+      - IDIOMA
+      - LANGUAGE
+      - "\u0627\u0644\u0644\u063A\u0629"
+      - LANGUAGE
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Sound
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u97F3\u6548"
+      - "\u97F3"
+      - "\u0417\u0432\u0443\u043A"
+      - Sonido
+      - SOM
+      - SOUND
+      - "\u0627\u0644\u0635\u0648\u062A"
+      - SOUND
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Music
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u97F3\u4E50"
+      - "\u97F3\u58F0"
+      - "\u041C\u0443\u0437\u044B\u043A\u0430"
+      - "M\xFAsica"
+      - "M\xDASICA"
+      - MUSIC
+      - "\u0627\u0644\u0645\u0648\u0633\u064A\u0642\u0649"
+      - MUSIC
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: On
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u5F00"
+      - "\u30AA\u30F3"
+      - "\u0412\u041A\u041B"
+      - ON
+      - LIGADO
+      - ON
+      - "\u062A\u0634\u063A\u064A\u0644"
+      - ON
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Off
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u5173"
+      - "\u30AA\u30D5"
+      - "\u0412\u042B\u041A\u041B"
+      - OFF
+      - DESLIGADO
+      - OFF
+      - "\u062A\u0639\u0637\u064A\u0644"
+      - OFF
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Help
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u5E2E\u52A9"
+      - "\u30D8\u30EB\u30D7"
+      - "\u041F\u043E\u043C\u043E\u0449\u044C"
+      - Ayuda
+      - Ajuda
+      - Help
+      - "\u0645\u0633\u0627\u0639\u062F\u0629"
+      - Help
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Credits
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u732B\u54AA\u5C0F\u961F"
+      - "\u30AD\u30E3\u30C3\u30C8\u30C1\u30FC\u30E0"
+      - "\u041A\u043E\u0442\u043E\u043A\u043E\u043C\u0430\u043D\u0434\u0430"
+      - EQUIPO GATUNO
+      - TIME GATO
+      - Credits
+      - "\u0627\u0645\u062A\u0646\u0627\u0646"
+      - Credits
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Reset
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u6E38\u620F\u91CD\u7F6E"
+      - "\u30B2\u30FC\u30E0\u3092\u30EA\u30BB\u30C3\u30C8\u3059\u308B"
+      - "\u041F\u0435\u0440\u0435\u0437\u0430\u043F\u0443\u0441\u043A \u0438\u0433\u0440\u044B"
+      - Empezar de nuevo
+      - RESETAR JOGO
+      - RESET GAME
+      - "\u0625\u0639\u0627\u062F\u0629 \u0625\u0639\u062F\u0627\u062F\u0627\u062A
+        \u0627\u0644\u0644\u0639\u0628\u0629"
+      - RESET GAME
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: PrivacyPolicy
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u9690\u79C1\u6761\u6B3E"
+      - "\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC"
+      - "\u041F\u041E\u041B\u0418\u0422\u0418\u041A\u0410 \u041A\u041E\u041D\u0424\u0418\u0414\u0415\u041D\u0426\u0418\u0410\u041B\u042C\u041D\u041E\u0421\u0422\u0418"
+      - "POL\xCDTICA DE PRIVACIDAD"
+      - "POL\xCDTICA DE PRIVACIDADE"
+      - PRIVACY POLICY
+      - "\u0633\u064A\u0627\u0633\u0629 \u0627\u0644\u062E\u0635\u0648\u0635\u064A\u0629"
+      - PRIVACY POLICY
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: TermOfUse
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u670D\u52A1\u6761\u6B3E"
+      - "\u4F7F\u7528\u898F\u7D04"
+      - "\u0423\u0421\u041B\u041E\u0412\u0418\u042F \u0418\u0421\u041F\u041E\u041B\u042C\u0417\u041E\u0412\u0410\u041D\u0418\u042F"
+      - "T\xC9RMINOS DE USO"
+      - TERMOS DE USO
+      - TERMS OF USE
+      - "\u0628\u0646\u0648\u062F \u0627\u0644\u0627\u0633\u062A\u062E\u062F\u0627\u0645"
+      - TERMS OF USE
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Accept
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u63A5\u53D7"
+      - "\u627F\u8A8D"
+      - "\u041F\u0420\u0418\u041D\u042F\u0422\u042C"
+      - ACEPTAR
+      - ACEITAR
+      - ACCEPT
+      - "\u0645\u0648\u0627\u0641\u0642\u0629"
+      - ACCEPT
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Ok
+      TermType: 0
+      Description: done
+      Languages:
+      - OK
+      - OK
+      - OK
+      - OK
+      - OK
+      - OK
+      - "\u062D\u0633\u0646\u0627"
+      - OK
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Cancel
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u53D6\u6D88"
+      - "\u30AD\u30E3\u30F3\u30BB\u30EB"
+      - "\u041E\u0422\u041C\u0415\u041D\u0410"
+      - CANCELAR
+      - CANCELAR
+      - CANCEL
+      - "\u0625\u0644\u063A\u0627\u0621"
+      - CANCEL
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Resume
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u91CD\u65B0\u5F00\u59CB"
+      - "\u9063\u308A\u76F4\u3059"
+      - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
+      - "\u0421ontinuar"
+      - Continuar
+      - Resume
+      - "\u0645\u0648\u0627\u0635\u0644\u0629"
+      - Resume
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Yes
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u662F"
+      - "\u306F\u3044"
+      - "\u0414\u0410"
+      - "S\xCD"
+      - SIM
+      - YES
+      - "\u0646\u0639\u0645"
+      - YES
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: No
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u5426"
+      - "\u3044\u3044\u3048"
+      - "\u041D\u0415\u0422"
+      - NO
+      - "N\xC3O"
+      - NO
+      - "\u0644\u0627"
+      - NO
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Error
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u9519\u8BEF"
+      - "\u30A8\u30E9\u30FC"
+      - "\u041E\u0428\u0418\u0411\u041A\u0410"
+      - ERROR
+      - ERRO
+      - ERROR
+      - "\u062E\u0637\u0623"
+      - ERROR
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: PleaseWait
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u8BF7\u7B49\u5F85..."
+      - "\u304A\u5F85\u3061\u4E0B\u3055\u3044\u2026"
+      - "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430 \u043F\u043E\u0434\u043E\u0436\u0434\u0438\u0442\u0435..."
+      - Por favor, espera...
+      - Por favor aguarde
+      - Please wait...
+      - "\u064A\u0631\u062C\u0649 \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631"
+      - Please wait...
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: RateUs_Capture
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u8BC4\u4EF7\u6211\u4EEC"
+      - "\u30EC\u30D3\u30E5\u30FC\u3092\u3057\u3066\u4E0B\u3055\u3044"
+      - "\u041E\u0446\u0435\u043D\u0438\u0442\u0435 \u043D\u0430\u0441"
+      - "Punt\xFAanos"
+      - Avalie-nos
+      - Rate us
+      - "\u0627\u062A\u0631\u0643 \u0644\u0646\u0627 \u062A\u0642\u064A\u064A\u0645\u0627"
+      - Rate us
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: RateUs_Enjoy
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u559C\u7231\u5C0F\u732B\u54AA\u5417?"
+      - "Kitties\u3092\u697D\u3057\u3093\u3067\u3044\u307E\u3059\u304B\uFF1F"
+      - "\u041D\u0440\u0430\u0432\u044F\u0442\u0441\u044F \u041A\u043E\u0442\u044F\u0442\u043A\u0438?"
+      - "\xBFDisfrutando de los gatitos?"
+      - Gostando dos gatinhos?
+      - Enjoying the Kitties?
+      - "\u0647\u0644 \u0623\u0646\u062A \u0645\u0633\u062A\u0645\u062A\u0639 \u0628\u0627\u0644\u0642\u064F\u0637\u064A\u0637\u0627\u062A\u061F"
+      - Enjoying the Kitties?
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: RateUs_PlayMore
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u66F4\u591A\u6E38\u620F\uFF01"
+      - "\u3082\u3063\u3068\u30D7\u30EC\u30A4\u3059\u308B\uFF01"
+      - "\u041F\u041E\u0418\u0413\u0420\u0410\u0422\u042C \u0415\u0429\u0401!"
+      - "\xA1SIGUE JUGANDO!"
+      - JOGUE MAIS!
+      - PLAY MORE!
+      - "\u0627\u0644\u0639\u0628 \u0627\u0643\u062B\u0631!"
+      - PLAY MORE!
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: RateUs_RateNow
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u7ACB\u5373\u8BC4\u4EF7\uFF01"
+      - "\u30EC\u30D3\u30E5\u30FC\u3059\u308B\uFF01"
+      - "\u041E\u0426\u0415\u041D\u0418\u0422\u042C \u0421\u0415\u0419\u0427\u0410\u0421!"
+      - "\xA1PUNT\xDAANOS AHORA!"
+      - AVALIE AGORA!
+      - RATE NOW!
+      - "\u0627\u062A\u0631\u0643 \u062A\u0642\u064A\u064A\u0645\u0627 \u0627\u0644\u0622\u0646!"
+      - RATE NOW!
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: DontShowAgain
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u4E0D\u8981\u518D\u663E\u793A"
+      - "\u3082\u3046\u8868\u793A\u3057\u306A\u3044"
+      - "\u041D\u0435 \u043F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C
+        \u0441\u043D\u043E\u0432\u0430"
+      - No mostrar de nuevo
+      - "N\xE3o mostrar de novo"
+      - Don't show again
+      - "\u0639\u062F\u0645 \u0625\u0638\u0647\u0627\u0631\u0647\u0627 \u0645\u0631\u0629
+        \u0623\u062E\u0631\u0649"
+      - Don't show again
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: TryOtherGames
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u5C1D\u8BD5\u5176\u5B83\u6E38\u620F!"
+      - "\u4ED6\u306E\u30B2\u30FC\u30E0\u3092\u30D7\u30EC\u30A4\u3059\u308B"
+      - "\u0417\u0430\u0446\u0435\u043D\u0438\u0442\u0435 \u0434\u0440\u0443\u0433\u0438\u0435
+        \u043D\u0430\u0448\u0438 \u0438\u0433\u0440\u044B!"
+      - "\xA1Prueba nuestros otros juegos!"
+      - Experimente nossos outros jogos!
+      - Try our other games!
+      - "\u0645\u062D\u0627\u0648\u0644\u0629 \u0644\u0639\u0628\u0629 \u0623\u062E\u0631\u0649!"
+      - Try our other games!
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: YourScore
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u4F60\u7684\u5F97\u5206"
+      - "\u3042\u306A\u305F\u306E\u30B9\u30B3\u30A2"
+      - "\u0412\u0430\u0448 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442"
+      - "Tu puntuaci\xF3n"
+      - "SUA PONTUA\xC7\xC3O"
+      - YOUR SCORE
+      - "\u0639\u062F\u062F \u0646\u0642\u0627\u0637\u0643"
+      - YOUR SCORE
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: BestScore
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u6700\u4F73\u5F97\u5206"
+      - "\u30D9\u30B9\u30C8\u30B9\u30B3\u30A2"
+      - "\u0420\u0435\u043A\u043E\u0440\u0434"
+      - "Mejor puntuaci\xF3n"
+      - "MELHOR PONTUA\xC7\xC3O"
+      - BEST SCORE
+      - "\u0623\u0641\u0636\u0644 \u0646\u062A\u064A\u062C\u0629"
+      - BEST SCORE
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: NewBestScore
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u65B0\u7EAA\u5F55!"
+      - "\u30D9\u30B9\u30C8\u30B9\u30B3\u30A2\u9054\u6210\uFF01"
+      - "\u041D\u043E\u0432\u044B\u0439 \u0420\u0435\u043A\u043E\u0440\u0434!"
+      - "\xA1Nueva mejor puntuaci\xF3n!\n"
+      - "Nova melhor pontua\xE7\xE3o!"
+      - New best score!
+      - "\u0623\u0641\u0636\u0644 \u0646\u062A\u064A\u062C\u0629 \u062C\u062F\u064A\u062F\u0629!"
+      - New best score!
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: ADsNotAvailable
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u5E7F\u544A\u4E0D\u53EF\u7528\u3002\u8BF7\u7A0D\u540E\u518D\u8BD5\u3002"
+      - "AD\u304C\u5229\u7528\u3067\u304D\u307E\u305B\u3093\u3002\u5F8C\u3067\u8A66\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+      - "\u0420\u0435\u043A\u043B\u0430\u043C\u0430 \u043D\u0435 \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u0430.
+        \u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u043F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435
+        \u043F\u043E\u0437\u0436\u0435."
+      - "Los anuncios no est\xE1n disponibles. Por favor, int\xE9ntalo m\xE1s tarde."
+      - "Os an\xFAncios n\xE3o est\xE3o dispon\xEDveis. Por favor tente de novo mais
+        tarde."
+      - ADs is not available. Please try again later.
+      - "\u0627\u0644\u0625\u0639\u0644\u0627\u0646\u0627\u062A \u063A\u064A\u0631
+        \u0645\u062A\u0627\u062D\u0629 \u062D\u0627\u0644\u0628\u0627. \u064A\u0631\u062C\u0649
+        \u0627\u0644\u0645\u062D\u0627\u0648\u0644\u0629 \u0644\u0627\u062D\u0642\u0627."
+      - ADs is not available. Please try again later.
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Retry
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u91CD\u8BD5"
+      - "\u30EA\u30C8\u30E9\u30A4"
+      - "\u041F\u043E\u0432\u0442\u043E\u0440\u0438\u0442\u044C"
+      - Reintentar
+      - Tentar de novo
+      - Retry
+      - "\u0625\u0639\u0627\u062F\u0629 \u0627\u0644\u0645\u062D\u0627\u0648\u0644\u0629"
+      - Retry
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Exit
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u8D70"
+      - "\u6062\u590D"
+      - "\u0412\u044B\u0439\u0442\u0438"
+      - Salir
+      - Sair
+      - Exit
+      - "\u0645\u063A\u0627\u062F\u0631\u0629"
+      - Exit
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Save_game
+      TermType: 0
+      Description: 
+      Languages:
+      - Save
+      - Save
+      - "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C"
+      - Save
+      - Save
+      - Save
+      - Save
+      - Save
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Load_game
+      TermType: 0
+      Description: 
+      Languages:
+      - Load
+      - Load
+      - "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C"
+      - Load
+      - Load
+      - Load
+      - Load
+      - Load
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Continue_game
+      TermType: 0
+      Description: 
+      Languages:
+      - Continue
+      - Continue
+      - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
+      - Continue
+      - Continue
+      - Continue
+      - Continue
+      - Continue
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: SomethingWentWrong
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u51FA\u73B0\u9519\u8BEF!"
+      - "\u4E0D\u5177\u5408\u304C\u767A\u751F\u3057\u307E\u3057\u305F\uFF01"
+      - "\u0427\u0442\u043E-\u0442\u043E \u043F\u043E\u0448\u043B\u043E \u043D\u0435
+        \u0442\u0430\u043A!"
+      - "\xA1Algo ha salido mal!"
+      - Algo deu errado!
+      - Something Went Wrong!
+      - "\u0644\u0642\u062F \u062D\u062F\u062B \u062E\u0637\u0623 \u0645\u0627!"
+      - Something Went Wrong!
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: TryAgainLater
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u51FA\u73B0\u4E86\u4E00\u4E2A\u9519\u8BEF\uFF0C\u8BF7\u7A0D\u540E\u518D\u8BD5\u3002"
+      - "\u30A8\u30E9\u30FC\u304C\u767A\u751F\u3057\u307E\u3057\u305F\u3002\u3082\u3046\u4E00\u5EA6\u8A66\u3057\u3066\u4E0B\u3055\u3044\u3002"
+      - "\u041F\u0440\u043E\u0438\u0437\u043E\u0448\u043B\u0430 \u043E\u0448\u0438\u0431\u043A\u0430.
+        \u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u043F\u043E\u0432\u0442\u043E\u0440\u0438\u0442\u0435
+        \u043F\u043E\u0437\u0436\u0435."
+      - "Ha ocurrido un error. Por favor, int\xE9ntalo m\xE1s tarde."
+      - Um erro ocorreu. Por favor tente de novo mais tarde.
+      - An error occurred. Please try again later.
+      - "\u0644\u0642\u062F \u062D\u062F\u062B \u062E\u0637\u0623 \u0645\u0627. \u064A\u0631\u062C\u0649
+        \u0627\u0644\u0645\u062D\u0627\u0648\u0644\u0629 \u0644\u0627\u062D\u0642\u0627."
+      - An error occurred. Please try again later.
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: POPUP_NOT_ENOUGH_SPACE_TITLE
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u78C1\u76D8\u7A7A\u95F4\u4E0D\u8DB3"
+      - "\u30C7\u30A3\u30B9\u30AF\u30B9\u30DA\u30FC\u30B9\u304C\u8DB3\u308A\u307E\u305B\u3093\u3002"
+      - "\u041D\u0435 \u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E
+        \u043C\u0435\u0441\u0442\u0430 \u043D\u0430 \u0434\u0438\u0441\u043A\u0435"
+      - No hay suficiente espacio en la memoria.
+      - "N\xE3o H\xE1 Espa\xE7o Suficiente no Disco"
+      - Not Enough Disk Space
+      - "\u0645\u0633\u0627\u062D\u0629 \u063A\u064A\u0631 \u0643\u0627\u0641\u064A\u0647
+        \u0641\u064A \u0627\u0644\u0642\u0631\u0635."
+      - Not Enough Disk Space
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Warning
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u8B66\u544A!"
+      - "\u8B66\u544A\uFF01"
+      - "\u0412\u041D\u0418\u041C\u0410\u041D\u0418\u0415!"
+      - "\xA1AVISO!"
+      - AVISO!
+      - WARNING!
+      - "\u062A\u062D\u0630\u064A\u0631!"
+      - WARNING!
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: AreYouSure
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u4F60\u786E\u5B9A\u5417?"
+      - "\u672C\u5F53\u306B\u3044\u3044\u3067\u3059\u304B\uFF1F"
+      - "\u0412\u042B \u0423\u0412\u0415\u0420\u0415\u041D\u042B?"
+      - "\xBFEST\xC1S SEGURO?"
+      - "VOC\xCA TEM CERTEZA?"
+      - ARE YOU SURE?
+      - "\u0647\u0644 \u0623\u0646\u062A \u0645\u062A\u0623\u0643\u062F\u061F"
+      - ARE YOU SURE?
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: NoInternet
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u7F51\u7EDC\u6CA1\u6709\u8FDE\u63A5"
+      - "\u30A4\u30F3\u30BF\u30FC\u30CD\u30C3\u30C8\u306B\u63A5\u7D9A\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+      - "\u041D\u0435\u0442 \u0441\u0432\u044F\u0437\u0438 \u0441 \u0441\u0435\u0442\u044C\u044E
+        \u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442"
+      - "No hay conexi\xF3n a internet"
+      - "Sem conex\xE3o com a internet"
+      - No Internet Connection
+      - "\u0627\u0644\u0634\u0628\u0643\u0629 \u063A\u064A\u0631 \u0645\u062A\u0635\u0644\u0629."
+      - No Internet Connection
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: filename
+      TermType: 0
+      Description: filename
+      Languages:
+      - filename
+      - filename
+      - "\u0438\u043C\u044F \u0444\u0430\u0439\u043B\u0430"
+      - filename
+      - filename
+      - filename
+      - filename
+      - filename
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Update
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u66F4\u65B0"
+      - "\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8"
+      - "\u041E\u0411\u041D\u041E\u0412\u041B\u0415\u041D\u0418\u0415"
+      - ACTUALIZAR
+      - "ATUALIZA\xC7\xC3O"
+      - UPDATE
+      - "\u062A\u062D\u062F\u064A\u062B"
+      - UPDATE
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: NewUpdate
+      TermType: 0
+      Description: done
+      Languages:
+      - "\u6700\u8FD1\u66F4\u65B0!"
+      - "\u65B0\u3057\u3044\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8\uFF01"
+      - "\u041D\u041E\u0412\u0410\u042F \u0412\u0415\u0420\u0421\u0418\u042F!"
+      - "\xA1NUEVA ACTUALIZACI\xD3N!"
+      - "NOVA ATUALIZA\xC7\xC3O!"
+      - NEW UPDATE!
+      - "\u062A\u062D\u062F\u064A\u062B \u062C\u062F\u064A\u062F!"
+      - NEW UPDATE!
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: IDNot_Found
+      TermType: 0
+      Description: need translation
+      Languages:
+      - ID not found.
+      - ID not found.
+      - ID not found.
+      - ID not found.
+      - ID not found.
+      - ID not found.
+      - ID not found.
+      - ID not found.
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: blank_name
+      TermType: 0
+      Description: need translation
+      Languages:
+      - BLANC DESCRIPTION
+      - BLANC DESCRIPTION
+      - "\u041F\u0423\u0421\u0422\u041E\u0415 \u0418\u041C\u042F"
+      - BLANC DESCRIPTION
+      - BLANC DESCRIPTION
+      - BLANC DESCRIPTION
+      - BLANC DESCRIPTION
+      - BLANC DESCRIPTION
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: blanc_desc
+      TermType: 0
+      Description: need translation
+      Languages:
+      - BLANC MAP DESCRIPTION
+      - BLANC MAP DESCRIPTION
+      - "\u041F\u0423\u0421\u0422\u041E\u0415 \u041E\u041F\u0418\u0421\u0410\u041D\u0418\u0415"
+      - BLANC MAP DESCRIPTION
+      - BLANC MAP DESCRIPTION
+      - BLANC MAP DESCRIPTION
+      - BLANC MAP DESCRIPTION
+      - BLANC MAP DESCRIPTION
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: blanc_map
+      TermType: 0
+      Description: need translation
+      Languages:
+      - ID not found.
+      - ID not found.
+      - "\u041F\u0423\u0421\u0422\u041E\u0415 \u041E\u041F\u0418\u0421\u0410\u041D\u0418\u0415
+        \u0414\u041B\u042F \u041A\u0410\u0420\u0422\u042B"
+      - ID not found.
+      - ID not found.
+      - ID not found.
+      - ID not found.
+      - ID not found.
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: creation_select_character
+      TermType: 0
+      Description: 
+      Languages:
+      - Character
+      - Character
+      - "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436"
+      - Character
+      - Character
+      - Character
+      - Character
+      - Character
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: creation_profession
+      TermType: 0
+      Description: 
+      Languages:
+      - Profession
+      - Profession
+      - "\u041F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u044F"
+      - Profession
+      - Profession
+      - Profession
+      - Profession
+      - Profession
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: creation_more_profession_to_unlock
+      TermType: 0
+      Description: Professions
+      Languages:
+      - '{[0]} more to unlock.[i2p_Zero]All professions were unlocked. More to come
+        in update.[i2p_One]One more to unlock.[i2p_Two]Two more to unlock.[i2p_Few]
+        {[0]} more to unlock.[i2p_Many]{[0]} more to unlock.'
+      - '{[0]} more to unlock.[i2p_Zero]All professions were unlocked. More to come
+        in update.[i2p_One]One more to unlock.[i2p_Two]Two more to unlock.[i2p_Few]
+        {[0]} more to unlock.[i2p_Many]{[0]} more to unlock.'
+      - "\u0415\u0449\u0451 {[0]} \u043D\u0435 \u043E\u0442\u043A\u0440\u044B\u0442\u044B\u0445
+        \u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u0438.[i2p_Zero]\u0412\u0441\u0435
+        \u043E\u0442\u043A\u0440\u044B\u0442\u044B.[i2p_One]\u041E\u0441\u0442\u0430\u043B\u0430\u0441\u044C
+        \u043E\u0434\u043D\u0430 \u043D\u0435 \u043E\u0442\u043A\u0440\u044B\u0442\u0430\u044F
+        \u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u044F.[i2p_Two]\u041E\u0441\u0442\u0430\u043B\u043E\u0441\u044C
+        \u0434\u0432\u0435 \u043D\u0435 \u043E\u0442\u043A\u0440\u044B\u0442\u044B\u0445
+        \u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u0438.[i2p_Few] {[0]} \u043D\u0435
+        \u043E\u0442\u043A\u0440\u044B\u0442\u044B\u0445 \u043F\u0440\u043E\u0444\u0435\u0441\u0438\u0438.[i2p_Many]{[0]}
+        \u043D\u0435 \u043E\u0442\u043A\u0440\u044B\u0442\u044B\u0445 \u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u0439."
+      - '{[0]} more to unlock.[i2p_Zero]All professions were unlocked. More to come
+        in update.[i2p_One]One more to unlock.[i2p_Two]Two more to unlock.[i2p_Few]
+        {[0]} more to unlock.[i2p_Many]{[0]} more to unlock.'
+      - '{[0]} more to unlock.[i2p_Zero]All professions were unlocked. More to come
+        in update.[i2p_One]One more to unlock.[i2p_Two]Two more to unlock.[i2p_Few]
+        {[0]} more to unlock.[i2p_Many]{[0]} more to unlock.'
+      - '{[0]} more to unlock.[i2p_Zero]All professions were unlocked. More to come
+        in update.[i2p_One]One more to unlock.[i2p_Two]Two more to unlock.[i2p_Few]
+        {[0]} more to unlock.[i2p_Many]{[0]} more to unlock.'
+      - '{[0]} more to unlock.[i2p_Zero]All professions were unlocked. More to come
+        in update.[i2p_One]One more to unlock.[i2p_Two]Two more to unlock.[i2p_Few]
+        {[0]} more to unlock.[i2p_Many]{[0]} more to unlock.'
+      - '{[0]} more to unlock.[i2p_Zero]All professions were unlocked. More to come
+        in update.[i2p_One]One more to unlock.[i2p_Two]Two more to unlock.[i2p_Few]
+        {[0]} more to unlock.[i2p_Many]{[0]} more to unlock.'
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: creation_select_map_size
+      TermType: 0
+      Description: 
+      Languages:
+      - Map size
+      - Map size
+      - "\u0420\u0430\u0437\u043C\u0435\u0440 \u043A\u0430\u0440\u0442\u044B"
+      - Map size
+      - Map size
+      - Map size
+      - Map size
+      - Map size
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: bodypart_head_name
+      TermType: 0
+      Description: need translation
+      Languages:
+      - head
+      - head
+      - "\u0433\u043E\u043B\u043E\u0432\u0430"
+      - head
+      - head
+      - head
+      - head
+      - head
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: bodypart_head_desc
+      TermType: 0
+      Description: need translation
+      Languages:
+      - your head. You use it to eat and think
+      - your head. You use it to eat and think
+      - "\u0432\u0430\u0448\u0430 \u0433\u043E\u043B\u043E\u0432\u0430. \u0412\u044B
+        \u0432 \u043D\u0435\u0451 \u0435\u0434\u0438\u0442\u0435 \u0438 \u0435\u044E
+        \u0434\u0443\u043C\u0430\u0435\u0442\u0435"
+      - your head. You use it to eat and think
+      - your head. You use it to eat and think
+      - your head. You use it to eat and think
+      - your head. You use it to eat and think
+      - your head. You use it to eat and think
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: bodypart_head_map
+      TermType: 0
+      Description: need translation
+      Languages:
+      - someones head without body
+      - someones head without body
+      - "\u0447\u044C\u044F-\u0442\u043E \u0433\u043E\u043B\u043E\u0432\u0430 \u043E\u0442\u0434\u0435\u043B\u0435\u043D\u043D\u0430\u044F
+        \u043E\u0442 \u0442\u0435\u043B\u0430"
+      - someones head without body
+      - someones head without body
+      - someones head without body
+      - someones head without body
+      - someones head without body
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: bodypart_leg_name
+      TermType: 0
+      Description: need translation
+      Languages:
+      - leg
+      - leg
+      - "\u043D\u043E\u0433\u0430"
+      - leg
+      - leg
+      - leg
+      - leg
+      - leg
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: bodypart_leg_desc
+      TermType: 0
+      Description: need translation
+      Languages:
+      - leg
+      - leg
+      - "\u0432\u0430\u0448\u0430 \u043D\u043E\u0433\u0430. \u041E\u043D\u0438 \u043D\u0443\u0436\u043D\u044B,
+        \u0447\u0442\u043E\u0431\u044B \u0445\u043E\u0434\u0438\u0442\u044C"
+      - leg
+      - leg
+      - leg
+      - leg
+      - leg
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: bodypart_leg_map
+      TermType: 0
+      Description: need translation
+      Languages:
+      - someones leg
+      - someones leg
+      - "\u0447\u044C\u044F-\u0442\u043E \u043D\u043E\u0433\u0430"
+      - someones leg
+      - someones leg
+      - someones leg
+      - someones leg
+      - someones leg
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: bodypart_torso_name
+      TermType: 0
+      Description: need translation
+      Languages:
+      - torso
+      - torso
+      - "\u0442\u043E\u0440\u0441"
+      - torso
+      - torso
+      - torso
+      - torso
+      - torso
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: bodypart_torso_desc
+      TermType: 0
+      Description: need translation
+      Languages:
+      - it's your torso, it holds a lot of vital organs
+      - it's your torso, it holds a lot of vital organs
+      - "\u044D\u0442\u043E \u0432\u0430\u0448 \u0442\u043E\u0440\u0441, \u0432 \u043D\u0451\u043C
+        \u043D\u0430\u0445\u043E\u0434\u044F\u0442\u0441\u044F \u0436\u0438\u0437\u043D\u0435\u043D\u043D\u043E\u0432\u0430\u0436\u043D\u044B\u0435
+        \u043E\u0440\u0433\u0430\u043D\u044B"
+      - it's your torso, it holds a lot of vital organs
+      - it's your torso, it holds a lot of vital organs
+      - it's your torso, it holds a lot of vital organs
+      - it's your torso, it holds a lot of vital organs
+      - it's your torso, it holds a lot of vital organs
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: bodypart_torso_map
+      TermType: 0
+      Description: need translation
+      Languages:
+      - someones torso
+      - someones torso
+      - "\u0447\u0435\u0439-\u0442\u043E \u0442\u043E\u0440\u0441"
+      - someones torso
+      - someones torso
+      - someones torso
+      - someones torso
+      - someones torso
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: organ_brain_name
+      TermType: 0
+      Description: 
+      Languages:
+      - brain
+      - brain
+      - "\u043C\u043E\u0437\u0433"
+      - brain
+      - brain
+      - brain
+      - brain
+      - brain
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: organ_brain_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - brain
+      - brain
+      - "\u043C\u043E\u0437\u0433"
+      - brain
+      - brain
+      - brain
+      - brain
+      - brain
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: organ_brain_map
+      TermType: 0
+      Description: 
+      Languages:
+      - someones brain
+      - someones brain
+      - "\u0447\u0435\u0439-\u0442\u043E \u043C\u043E\u0437\u0433"
+      - brain
+      - someones brain
+      - someones brain
+      - someones brain
+      - someones brain
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: skill_athletics_name
+      TermType: 0
+      Description: need translation
+      Languages:
+      - athletics
+      - athletics
+      - "\u0430\u0442\u043B\u0435\u0446\u0438\u0437\u043C"
+      - athletics
+      - athletics
+      - athletics
+      - athletics
+      - athletics
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: skill_athletics_desc
+      TermType: 0
+      Description: need translation
+      Languages:
+      - athletics skills description
+      - athletics skills description
+      - "\u043E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043D\u0430\u0432\u044B\u043A\u0430
+        \u0430\u0442\u043B\u0435\u0446\u0438\u0437\u043C"
+      - athletics skills description
+      - athletics skills description
+      - athletics skills description
+      - athletics skills description
+      - athletics skills description
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: skill_combat_name
+      TermType: 0
+      Description: need translation
+      Languages:
+      - combat
+      - combat
+      - "\u0431\u043E\u0439"
+      - combat
+      - combat
+      - combat
+      - combat
+      - combat
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: skill_combat_desc
+      TermType: 0
+      Description: need translation
+      Languages:
+      - combat skill description
+      - combat skill description
+      - "\u043E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043D\u0430\u0432\u044B\u043A\u0430
+        \u0431\u043E\u0439"
+      - combat skill description
+      - combat skill description
+      - combat skill description
+      - combat skill description
+      - combat skill description
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: creature_pioneer_name
+      TermType: 0
+      Description: 
+      Languages:
+      - Space Pioneer
+      - Space Pioneer
+      - "\u041A\u043E\u0441\u043C\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u041F\u0438\u043E\u043D\u0435\u0440"
+      - Space Pioneer
+      - Space Pioneer
+      - Space Pioneer
+      - Space Pioneer
+      - Space Pioneer
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: creature_pioneer_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Pioneers are the first thousand colonist that are awake at the very landing
+        of the colony ship. It's their task to set up colony base camp.
+      - Pioneers are the first thousand colonist that are awake at the very landing
+        of the colony ship. It's their task to set up colony base camp.
+      - Pioneers are the first thousand colonist that are awake at the very landing
+        of the colony ship. It's their task to set up colony base camp.
+      - Pioneers are the first thousand colonist that are awake at the very landing
+        of the colony ship. It's their task to set up colony base camp.
+      - Pioneers are the first thousand colonist that are awake at the very landing
+        of the colony ship. It's their task to set up colony base camp.
+      - Pioneers are the first thousand colonist that are awake at the very landing
+        of the colony ship. It's their task to set up colony base camp.
+      - Pioneers are the first thousand colonist that are awake at the very landing
+        of the colony ship. It's their task to set up colony base camp.
+      - Pioneers are the first thousand colonist that are awake at the very landing
+        of the colony ship. It's their task to set up colony base camp.
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: creature_colonist_name
+      TermType: 0
+      Description: Colonist
+      Languages:
+      - Colonist
+      - Colonist
+      - "\u041A\u043E\u043B\u043E\u043D\u0438\u0441\u0442"
+      - Colonist
+      - Colonist
+      - Colonist
+      - Colonist
+      - Colonist
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: creature_colonist_desc
+      TermType: 0
+      Description: Their task is to tame new workd for humanity.
+      Languages:
+      - Their task is to tame new workd for humanity.
+      - Their task is to tame new workd for humanity.
+      - Their task is to tame new workd for humanity.
+      - Their task is to tame new workd for humanity.
+      - Their task is to tame new workd for humanity.
+      - Their task is to tame new workd for humanity.
+      - Their task is to tame new workd for humanity.
+      - Their task is to tame new workd for humanity.
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: verb_unlocked
+      TermType: 0
+      Description: something unlocked
+      Languages:
+      - unlocked
+      - unlocked
+      - "\u043E\u0442\u043A\u0440\u044B\u0442"
+      - unlocked
+      - unlocked
+      - unlocked
+      - unlocked
+      - unlocked
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: verb_now_avaliable
+      TermType: 0
+      Description: something now avaliable
+      Languages:
+      - now avaliable
+      - now avaliable
+      - "\u0434\u043E\u0441\u0442\u0443\u043F\u0435\u043D"
+      - now avaliable
+      - now avaliable
+      - now avaliable
+      - now avaliable
+      - now avaliable
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: verb_unlocked_f
+      TermType: 0
+      Description: 'femenitive '
+      Languages:
+      - unlocked
+      - unlocked
+      - "\u043E\u0442\u043A\u0440\u044B\u0442\u0430"
+      - unlocked
+      - unlocked
+      - unlocked
+      - unlocked
+      - unlocked
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: verb_now_avaliable_f
+      TermType: 0
+      Description: 'femenitive '
+      Languages:
+      - now avaliable
+      - now avaliable
+      - "\u0434\u043E\u0441\u0442\u0443\u043F\u0435\u043D\u0430"
+      - now avaliable
+      - now avaliable
+      - now avaliable
+      - now avaliable
+      - now avaliable
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: unlock_mapS_name
+      TermType: 0
+      Description: Small size map unlocked
+      Languages:
+      - small map
+      - small map
+      - "\u043C\u0430\u043B\u0435\u043D\u044C\u043A\u0430\u044F \u043A\u0430\u0440\u0442\u0430"
+      - small map
+      - small map
+      - small map
+      - small map
+      - small map
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: unlock_tier1_player_name
+      TermType: 0
+      Description: 
+      Languages:
+      - colonist character
+      - colonist character
+      - "\u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0445 \u043A\u043E\u043B\u043E\u043D\u0438\u0441\u0442"
+      - colonist character
+      - colonist character
+      - colonist character
+      - colonist character
+      - colonist character
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_title
+      TermType: 0
+      Description: need translation
+      Languages:
+      - Map Editor
+      - Map Editor
+      - "\u0420\u0435\u0434\u0430\u043A\u0442\u043E\u0440 \u041A\u0430\u0440\u0442\u044B"
+      - Map Editor
+      - Map Editor
+      - Map Editor
+      - Map Editor
+      - Map Editor
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_import
+      TermType: 0
+      Description: need translation
+      Languages:
+      - load
+      - load
+      - "\u0437\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C"
+      - load
+      - load
+      - load
+      - load
+      - load
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_export
+      TermType: 0
+      Description: need translation
+      Languages:
+      - save
+      - save
+      - "\u0441\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C"
+      - save
+      - save
+      - save
+      - save
+      - save
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: mao_editor_paste_tiles
+      TermType: 0
+      Description: need translation
+      Languages:
+      - edit tiles
+      - edit tiles
+      - "\u0440\u0435\u0434\u0430\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+        \u0442\u0430\u0439\u043B\u044B"
+      - edit tiles
+      - edit tiles
+      - edit tiles
+      - edit tiles
+      - edit tiles
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: mao_editor_new_map
+      TermType: 0
+      Description: need translation
+      Languages:
+      - new map
+      - new map
+      - "\u043D\u043E\u0432\u0430\u044F \u043A\u0430\u0440\u0442\u0430"
+      - new map
+      - new map
+      - new map
+      - new map
+      - new map
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_tile_empty
+      TermType: 0
+      Description: need translation
+      Languages:
+      - empty
+      - empty
+      - "\u043F\u0443\u0441\u0442\u043E"
+      - empty
+      - empty
+      - empty
+      - empty
+      - empty
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_tile_blocker
+      TermType: 0
+      Description: need translation
+      Languages:
+      - blocker
+      - blocker
+      - "\u0431\u043B\u043E\u043A\u0435\u0440"
+      - blocker
+      - blocker
+      - blocker
+      - blocker
+      - blocker
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_tile_door
+      TermType: 0
+      Description: need translation
+      Languages:
+      - door
+      - door
+      - "\u0434\u0432\u0435\u0440\u044C"
+      - door
+      - door
+      - door
+      - door
+      - door
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_tile_room
+      TermType: 0
+      Description: need translation
+      Languages:
+      - room
+      - room
+      - "\u043A\u043E\u043C\u043D\u0430\u0442\u0430"
+      - room
+      - room
+      - room
+      - room
+      - room
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_tile_corridor
+      TermType: 0
+      Description: need translation
+      Languages:
+      - corridor
+      - corridor
+      - "\u043A\u043E\u0440\u0438\u0434\u043E\u0440"
+      - corridor
+      - corridor
+      - corridor
+      - corridor
+      - corridor
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_note_corridor placement
+      TermType: 0
+      Description: need translation
+      Languages:
+      - Corridor could be placed near blocker or other corridor.
+      - Corridor could be placed near blocker or other corridor.
+      - "\u041A\u043E\u0440\u0438\u0434\u043E\u0440 \u043C\u043E\u0436\u043D\u043E
+        \u0440\u0430\u0437\u043C\u0435\u0449\u0430\u0442\u044C \u0442\u043E\u043B\u044C\u043A\u043E
+        \u0440\u044F\u0434\u043E\u043C \u0441 \u0431\u043B\u043E\u043A\u0435\u0440\u043E\u043C
+        \u0438\u043B\u0438 \u0434\u0440\u0443\u0433\u0438\u043C \u043A\u043E\u0440\u0438\u0434\u043E\u0440\u043E\u043C."
+      - Corridor could be placed near blocker or other corridor.
+      - Corridor could be placed near blocker or other corridor.
+      - Corridor could be placed near blocker or other corridor.
+      - Corridor could be placed near blocker or other corridor.
+      - Corridor could be placed near blocker or other corridor.
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_warning_delete_work
+      TermType: 0
+      Description: need translation
+      Languages:
+      - Are you sure? It will eraze all unsaved work.
+      - Are you sure? It will eraze all unsaved work.
+      - "\u0412\u044B \u0443\u0432\u0435\u0440\u0435\u043D\u044B? \u0412\u0441\u044F
+        \u043D\u0435\u0441\u043E\u0445\u0440\u0430\u043D\u0451\u043D\u043D\u0430\u044F
+        \u0440\u0430\u0431\u043E\u0442\u0430 \u0431\u0443\u0434\u0435\u0442 \u0443\u0434\u0430\u043B\u0435\u043D\u0430."
+      - Are you sure? It will eraze all unsaved work.
+      - Are you sure? It will eraze all unsaved work.
+      - Are you sure? It will eraze all unsaved work.
+      - Are you sure? It will eraze all unsaved work.
+      - Are you sure? It will eraze all unsaved work.
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_warining_file_already_exists
+      TermType: 0
+      Description: need translation
+      Languages:
+      - File "{[0]}" already exists. Overwrite?
+      - File "{[0]}" already exists. Overwrite?
+      - "\u0424\u0430\u0439\u043B \"{[0]}\" \u0443\u0436\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442.
+        \u041F\u0435\u0440\u0435\u0437\u0430\u043F\u0438\u0441\u0430\u0442\u044C?"
+      - File "{[0]}" already exists. Overwrite?
+      - File "{[0]}" already exists. Overwrite?
+      - File "{[0]}" already exists. Overwrite?
+      - File "{[0]}" already exists. Overwrite?
+      - File "{[0]}" already exists. Overwrite?
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_warning_file_doesnt_exist
+      TermType: 0
+      Description: need translation
+      Languages:
+      - File "{[0]}" doesn't exist. Check file name.
+      - File "{[0]}" doesn't exist. Check file name.
+      - "\u0424\u0430\u0439\u043B \"{[0]}\" \u043D\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442.
+        \u041F\u0440\u043E\u0432\u0435\u0440\u044C\u0442\u0435 \u0438\u043C\u044F
+        \u0444\u0430\u0439\u043B\u0430."
+      - File "{[0]}" doesn't exist. Check file name.
+      - File "{[0]}" doesn't exist. Check file name.
+      - File "{[0]}" doesn't exist. Check file name.
+      - File "{[0]}" doesn't exist. Check file name.
+      - File "{[0]}" doesn't exist. Check file name.
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_error_map_size_too_small
+      TermType: 0
+      Description: need translation
+      Languages:
+      - Error. Map size is too small. Minimal size is {[0]}.
+      - Error. Map size is too small. Minimal size is {[0]}.
+      - Error. Map size is too small. Minimal size is {[0]}.
+      - Error. Map size is too small. Minimal size is {[0]}.
+      - Error. Map size is too small. Minimal size is {[0]}.
+      - Error. Map size is too small. Minimal size is {[0]}.
+      - Error. Map size is too small. Minimal size is {[0]}.
+      - Error. Map size is too small. Minimal size is {[0]}.
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_error_map_size_not_div_2
+      TermType: 0
+      Description: need translation
+      Languages:
+      - Error. Map block should be div 2.
+      - Error. Map block should be div 2.
+      - Error. Map block should be div 2.
+      - Error. Map block should be div 2.
+      - Error. Map block should be div 2.
+      - Error. Map block should be div 2.
+      - Error. Map block should be div 2.
+      - Error. Map block should be div 2.
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_tip_use_right_btn_to_paste
+      TermType: 0
+      Description: need translation
+      Languages:
+      - Press and right mouse button to paste selected tile.
+      - Press and right mouse button to paste selected tile.
+      - "\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u0438 \u0443\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0439\u0442\u0435
+        \u043F\u0440\u0430\u0432\u0443\u044E \u043A\u043D\u043E\u043F\u043A\u0443
+        \u043C\u044B\u0448\u0438, \u0447\u0442\u043E\u0431\u044B \u0440\u0438\u0441\u043E\u0432\u0430\u0442\u044C
+        \u0432\u044B\u0431\u0440\u0430\u043D\u044B\u043C \u0442\u0430\u0439\u043B\u043E\u043C."
+      - Press and right mouse button to paste selected tile.
+      - Press and right mouse button to paste selected tile.
+      - Press and right mouse button to paste selected tile.
+      - Press and right mouse button to paste selected tile.
+      - Press and right mouse button to paste selected tile.
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_size
+      TermType: 0
+      Description: need translation
+      Languages:
+      - size
+      - size
+      - "\u0440\u0430\u0437\u043C\u0435\u0440"
+      - size
+      - size
+      - size
+      - size
+      - size
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_btn_create_room
+      TermType: 0
+      Description: need translation
+      Languages:
+      - create a room
+      - create a room
+      - "\u0441\u043E\u0437\u0434\u0430\u0442\u044C \u043A\u043E\u043C\u043D\u0430\u0442\u0443"
+      - create a room
+      - create a room
+      - create a room
+      - create a room
+      - create a room
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_tip_rooms
+      TermType: 0
+      Description: need translation
+      Languages:
+      - Use mouse wheel to browse through room patters and right click to apply pattern.
+      - Use mouse wheel to browse through room patters and right click to apply pattern.
+      - "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435 \u043A\u043E\u043B\u0435\u0441\u043E
+        \u043C\u044B\u0448\u0438, \u0447\u0442\u043E\u0431\u044B \u0432\u044B\u0431\u0440\u0430\u0442\u044C
+        \u043F\u0430\u0442\u0442\u0435\u0440\u043D \u043A\u043E\u043C\u043D\u0430\u0442\u044B
+        \u0438 \u043F\u0440\u0430\u0432\u044B\u0439 \u043A\u043B\u0438\u043A, \u0447\u0442\u043E\u0431\u044B
+        \u0440\u0430\u0437\u043C\u0435\u0441\u0442\u0438\u0442\u044C \u043A\u043E\u043C\u043D\u0430\u0442\u0443."
+      - Use mouse wheel to browse through room patters and right click to apply pattern.
+      - Use mouse wheel to browse through room patters and right click to apply pattern.
+      - Use mouse wheel to browse through room patters and right click to apply pattern.
+      - Use mouse wheel to browse through room patters and right click to apply pattern.
+      - Use mouse wheel to browse through room patters and right click to apply pattern.
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_add_new_room_pattern
+      TermType: 0
+      Description: need translation
+      Languages:
+      - add new size pattern
+      - add new size pattern
+      - "\u0434\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043D\u043E\u0432\u044B\u0439
+        \u043F\u0430\u0442\u0442\u0435\u0440\u043D"
+      - add new size pattern
+      - add new size pattern
+      - add new size pattern
+      - add new size pattern
+      - add new size pattern
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_patterns_total
+      TermType: 0
+      Description: need translation
+      Languages:
+      - total patterns
+      - total patterns
+      - "\u0432\u0441\u0435\u0433\u043E \u043F\u0430\u0442\u0442\u0435\u0440\u043D\u043E\u0432"
+      - total patterns
+      - total patterns
+      - total patterns
+      - total patterns
+      - total patterns
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_tiles
+      TermType: 0
+      Description: need translation
+      Languages:
+      - tiles
+      - tiles
+      - "\u0442\u0430\u0439\u043B\u044B"
+      - tiles
+      - tiles
+      - tiles
+      - tiles
+      - tiles
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_rooms
+      TermType: 0
+      Description: need translation
+      Languages:
+      - rooms
+      - rooms
+      - "\u043A\u043E\u043C\u043D\u0430\u0442\u044B"
+      - rooms
+      - rooms
+      - rooms
+      - rooms
+      - rooms
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_warning_patter_alredy_exists
+      TermType: 0
+      Description: need translation
+      Languages:
+      - pattern of this size already exists
+      - pattern of this size already exists
+      - "\u043F\u0430\u0442\u0442\u0435\u0440\u043D \u0442\u0430\u043A\u043E\u0433\u043E
+        \u0440\u0430\u0437\u043C\u0435\u0440\u0430 \u0443\u0436\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442"
+      - pattern of this size already exists
+      - pattern of this size already exists
+      - pattern of this size already exists
+      - pattern of this size already exists
+      - pattern of this size already exists
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_tip_new_room_size
+      TermType: 0
+      Description: need translation
+      Languages:
+      - enter size of the new pattern and press "ok". Room size should be from {[0]}/{[1]}
+        to {[2]}/{[3]}.
+      - enter size of the new pattern and press "ok". Room size should be from {[0]}/{[1]}
+        to {[2]}/{[3]}.
+      - "\u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0440\u0430\u0437\u043C\u0435\u0440
+        \u0438 \u043D\u0430\u0436\u043C\u0438\u0442\u0435 \"ok\". \u0420\u0430\u0437\u043C\u0435\u0440
+        \u0434\u043E\u043B\u0436\u0435\u043D \u0431\u044B\u0442\u044C \u0432 \u043F\u0440\u0435\u0434\u0435\u043B\u0430\u0445
+        \u043E\u0442 {[0]}/{[1]} \u0434\u043E {[2]}/{[3]}."
+      - enter size of the new pattern and press "ok". Room size should be from {[0]}/{[1]}
+        to {[2]}/{[3]}.
+      - enter size of the new pattern and press "ok". Room size should be from {[0]}/{[1]}
+        to {[2]}/{[3]}.
+      - enter size of the new pattern and press "ok". Room size should be from {[0]}/{[1]}
+        to {[2]}/{[3]}.
+      - enter size of the new pattern and press "ok". Room size should be from {[0]}/{[1]}
+        to {[2]}/{[3]}.
+      - enter size of the new pattern and press "ok". Room size should be from {[0]}/{[1]}
+        to {[2]}/{[3]}.
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_cancel_room
+      TermType: 0
+      Description: need translation
+      Languages:
+      - cancel room
+      - cancel room
+      - "\u043E\u0442\u043C\u0435\u043D\u0438\u0442\u044C \u043A\u043E\u043C\u043D\u0430\u0442\u0443"
+      - cancel room
+      - cancel room
+      - cancel room
+      - cancel room
+      - cancel room
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_rotate_room
+      TermType: 0
+      Description: need translation
+      Languages:
+      - rotate
+      - rotate
+      - "\u0432\u0440\u0430\u0449\u0430\u0442\u044C"
+      - rotate
+      - rotate
+      - rotate
+      - rotate
+      - rotate
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_tip_room_placement
+      TermType: 0
+      Description: need translation
+      Languages:
+      - place room tip
+      - place room tip
+      - "\u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430"
+      - place room tip
+      - place room tip
+      - place room tip
+      - place room tip
+      - place room tip
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_move_room
+      TermType: 0
+      Description: replace or move to other location.
+      Languages:
+      - move room
+      - move room
+      - "\u043F\u0435\u0440\u0435\u043C\u0435\u0441\u0442\u0438\u0442\u044C \u043A\u043E\u043C\u043D\u0430\u0442\u0443"
+      - move room
+      - move room
+      - move room
+      - move room
+      - move room
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: map_editor_change_pattern
+      TermType: 0
+      Description: pattern
+      Languages:
+      - pattern
+      - pattern
+      - "\u043F\u0430\u0442\u0442\u0435\u0440\u043D"
+      - pattern
+      - pattern
+      - pattern
+      - pattern
+      - pattern
+      Flags: 0000000000000000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: Chinese
+      Code: zh
+      Flags: 0
+    - Name: Japanese
+      Code: ja
+      Flags: 0
+    - Name: Russian
+      Code: ru
+      Flags: 0
+    - Name: Spanish
+      Code: es
+      Flags: 0
+    - Name: Portuguese
+      Code: pt
+      Flags: 0
+    - Name: Hindi
+      Code: hi
+      Flags: 0
+    - Name: Arabic
+      Code: ar
+      Flags: 0
+    - Name: Indonesian
+      Code: id
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: 
+    Google_SpreadsheetKey: 
+    Google_SpreadsheetName: 
+    Google_LastUpdatedVersion: 1559688289029
+    Google_Password: change_this
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets: []
+    Spreadsheet_LocalFileName: Resources/Localization/Localization - KEYS.csv
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1

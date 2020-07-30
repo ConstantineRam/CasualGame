@@ -1,0 +1,146 @@
+Keys,English,Description,Chinese,Japanese,Russian,Spanish,Portuguese,Hindi,Arabic,Indonesian
+,,Basic UI,,,,,,,,
+Game_name,Kitty Warriors,**EN only**,Beyond The End,Beyond The End,Beyond The End,Beyond The End,Beyond The End,Beyond The End,Beyond The End,Beyond The End
+,,,,,,,,,,
+Options,Options,done,选项,オプション,Настройки,Opciones,Opções,Options,خيارات,Options
+Close,Close,done,关闭,閉じる,Закрыть,Cerrar,Fechar,Close,إغلاق,Close
+Language_name,English,done,中文,日本語,Русский,Español,Português,Hindi,العربية,Indonesian
+Language,LANGUAGE,done,语言,言語,ЯЗЫК,IDIOMA,IDIOMA,LANGUAGE,اللغة,LANGUAGE
+Sound,SOUND,done,音效,音,Звук,Sonido,SOM,SOUND,الصوت,SOUND
+Music,MUSIC,done,音乐,音声,Музыка,Música,MÚSICA,MUSIC,الموسيقى,MUSIC
+On,ON,done,开,オン,ВКЛ,ON,LIGADO,ON,تشغيل,ON
+Off,OFF,done,关,オフ,ВЫКЛ,OFF,DESLIGADO,OFF,تعطيل,OFF
+Help,Help,done,帮助,ヘルプ,Помощь,Ayuda,Ajuda,Help,مساعدة,Help
+Credits,CAT TEAM,done,猫咪小队,キャットチーム,Котокоманда,EQUIPO GATUNO,TIME GATO,Credits,امتنان,Credits
+Reset,RESET GAME,done,游戏重置,ゲームをリセットする,Перезапуск игры,Empezar de nuevo,RESETAR JOGO,RESET GAME,إعادة إعدادات اللعبة,RESET GAME
+PrivacyPolicy,PRIVACY POLICY,done,隐私条款,プライバシーポリシー,ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ,POLÍTICA DE PRIVACIDAD,POLÍTICA DE PRIVACIDADE,PRIVACY POLICY,سياسة الخصوصية,PRIVACY POLICY
+TermOfUse,TERMS OF USE,done,服务条款,使用規約,УСЛОВИЯ ИСПОЛЬЗОВАНИЯ,TÉRMINOS DE USO,TERMOS DE USO,TERMS OF USE,بنود الاستخدام,TERMS OF USE
+Accept,ACCEPT,done,接受,承認,ПРИНЯТЬ,ACEPTAR,ACEITAR,ACCEPT,موافقة,ACCEPT
+Ok,OK,done,OK,OK,OK,OK,OK,OK,حسنا,OK
+Cancel,CANCEL,done,取消,キャンセル,ОТМЕНА,CANCELAR,CANCELAR,CANCEL,إلغاء,CANCEL
+Resume,RESUME,done,恢复,再開,ПРОДОЛЖИТЬ,CONTINUAR,CONTINUAR,RESUME,مواصلة,RESUME
+,,,,,,,,,,
+Yes,YES,done,是,はい,ДА,SÍ,SIM,YES,نعم,YES
+No,NO,done,否,いいえ,НЕТ,NO,NÃO,NO,لا,NO
+,,,,,,,,,,
+Error,ERROR,done,错误,エラー,ОШИБКА,ERROR,ERRO,ERROR,خطأ,ERROR
+PleaseWait,Please wait...,done,请等待...,お待ち下さい…,Пожалуйста подождите...,"Por favor, espera...",Por favor aguarde,Please wait...,يرجى الانتظار,Please wait...
+,,,,,,,,,,
+RateUs_Capture,Rate us,done,评价我们,レビューをして下さい,Оцените нас,Puntúanos,Avalie-nos,Rate us,اترك لنا تقييما,Rate us
+RateUs_Enjoy,Enjoying the Kitties?,done,喜爱小猫咪吗?,Kittiesを楽しんでいますか？,Нравятся Котятки?,¿Disfrutando de los gatitos?,Gostando dos gatinhos?,Enjoying the Kitties?,هل أنت مستمتع بالقُطيطات؟,Enjoying the Kitties?
+RateUs_PlayMore,PLAY MORE!,done,更多游戏！,もっとプレイする！,ПОИГРАТЬ ЕЩЁ!,¡SIGUE JUGANDO!,JOGUE MAIS!,PLAY MORE!,العب اكثر!,PLAY MORE!
+RateUs_RateNow,RATE NOW!,done,立即评价！,レビューする！,ОЦЕНИТЬ СЕЙЧАС!,¡PUNTÚANOS AHORA!,AVALIE AGORA!,RATE NOW!,اترك تقييما الآن!,RATE NOW!
+,,,,,,,,,,
+DontShowAgain,Don't show again,done,不要再显示,もう表示しない,Не показывать снова,No mostrar de nuevo,Não mostrar de novo,Don't show again,عدم إظهارها مرة أخرى,Don't show again
+,,,,,,,,,,
+TryOtherGames,Try our other games!,done,尝试其它游戏!,他のゲームをプレイする,Зацените другие наши игры!,¡Prueba nuestros otros juegos!,Experimente nossos outros jogos!,Try our other games!,محاولة لعبة أخرى!,Try our other games!
+YourScore,YOUR SCORE,done,你的得分,あなたのスコア,Ваш результат,Tu puntuación,SUA PONTUAÇÃO,YOUR SCORE,عدد نقاطك,YOUR SCORE
+BestScore,BEST SCORE,done,最佳得分,ベストスコア,Рекорд,Mejor puntuación,MELHOR PONTUAÇÃO,BEST SCORE,أفضل نتيجة,BEST SCORE
+NewBestScore,New best score!,done,新纪录!,ベストスコア達成！,Новый Рекорд!,"¡Nueva mejor puntuación!
+",Nova melhor pontuação!,New best score!,أفضل نتيجة جديدة!,New best score!
+,,,,,,,,,,
+ADsNotAvailable,ADs is not available. Please try again later.,done,广告不可用。请稍后再试。,ADが利用できません。後で試してください。,"Реклама не доступна. Пожалуйста, попробуйте позже.","Los anuncios no están disponibles. Por favor, inténtalo más tarde.",Os anúncios não estão disponíveis. Por favor tente de novo mais tarde.,ADs is not available. Please try again later.,الإعلانات غير متاحة حالبا. يرجى المحاولة لاحقا.,ADs is not available. Please try again later.
+Retry,Retry,done,重试,リトライ,Повторить,Reintentar,Tentar de novo,Retry,إعادة المحاولة,Retry
+Exit,Exit,done,走,恢复,Выйти,Salir,Sair,Exit,مغادرة,Exit
+Resume,Resume,done,重新开始,遣り直す,Продолжить,Сontinuar,Continuar,Resume,مواصلة,Resume
+Save_game,Save,,Save,Save,Сохранить,Save,Save,Save,Save,Save
+Load_game,Load,,Load,Load,Загрузить,Load,Load,Load,Load,Load
+Continue_game,Continue,,Continue,Continue,Продолжить,Continue,Continue,Continue,Continue,Continue
+,,,,,,,,,,
+SomethingWentWrong,Something Went Wrong!,done,出现错误!,不具合が発生しました！,Что-то пошло не так!,¡Algo ha salido mal!,Algo deu errado!,Something Went Wrong!,لقد حدث خطأ ما!,Something Went Wrong!
+TryAgainLater,An error occurred. Please try again later.,done,出现了一个错误，请稍后再试。,エラーが発生しました。もう一度試して下さい。,"Произошла ошибка. Пожалуйста, повторите позже.","Ha ocurrido un error. Por favor, inténtalo más tarde.",Um erro ocorreu. Por favor tente de novo mais tarde.,An error occurred. Please try again later.,لقد حدث خطأ ما. يرجى المحاولة لاحقا.,An error occurred. Please try again later.
+,,,,,,,,,,
+POPUP_NOT_ENOUGH_SPACE_TITLE,Not Enough Disk Space,done,磁盘空间不足,ディスクスペースが足りません。,Не достаточно места на диске,No hay suficiente espacio en la memoria.,Não Há Espaço Suficiente no Disco,Not Enough Disk Space,مساحة غير كافيه في القرص.,Not Enough Disk Space
+,,,,,,,,,,
+Warning,WARNING!,done,警告!,警告！,ВНИМАНИЕ!,¡AVISO!,AVISO!,WARNING!,تحذير!,WARNING!
+,,,,,,,,,,
+AreYouSure,ARE YOU SURE?,done,你确定吗?,本当にいいですか？,ВЫ УВЕРЕНЫ?,¿ESTÁS SEGURO?,VOCÊ TEM CERTEZA?,ARE YOU SURE?,هل أنت متأكد؟,ARE YOU SURE?
+,,,,,,,,,,
+NoInternet,No Internet Connection,done,网络没有连接,インターネットに接続されていません。,Нет связи с сетью Интернет,No hay conexión a internet,Sem conexão com a internet,No Internet Connection,الشبكة غير متصلة.,No Internet Connection
+filename,filename,filename,filename,filename,имя файла,filename,filename,filename,filename,filename
+,,,,,,,,,,
+Update,UPDATE,done,更新,アップデート,ОБНОВЛЕНИЕ,ACTUALIZAR,ATUALIZAÇÃO,UPDATE,تحديث,UPDATE
+NewUpdate,NEW UPDATE!,done,最近更新!,新しいアップデート！,НОВАЯ ВЕРСИЯ!,¡NUEVA ACTUALIZACIÓN!,NOVA ATUALIZAÇÃO!,NEW UPDATE!,تحديث جديد!,NEW UPDATE!
+IDNot_Found,ID not found.,need translation,ID not found.,ID not found.,ID not found.,ID not found.,ID not found.,ID not found.,ID not found.,ID not found.
+blank_name,BLANC NAME,need translation,BLANC DESCRIPTION,BLANC DESCRIPTION,ПУСТОЕ ИМЯ,BLANC DESCRIPTION,BLANC DESCRIPTION,BLANC DESCRIPTION,BLANC DESCRIPTION,BLANC DESCRIPTION
+blanc_desc,BLANC DESCRIPTION,need translation,BLANC MAP DESCRIPTION,BLANC MAP DESCRIPTION,ПУСТОЕ ОПИСАНИЕ,BLANC MAP DESCRIPTION,BLANC MAP DESCRIPTION,BLANC MAP DESCRIPTION,BLANC MAP DESCRIPTION,BLANC MAP DESCRIPTION
+blanc_map,BLANC MAP DESCRIPTION,need translation,ID not found.,ID not found.,ПУСТОЕ ОПИСАНИЕ ДЛЯ КАРТЫ,ID not found.,ID not found.,ID not found.,ID not found.,ID not found.
+,,,,,,,,,,
+,,*Creation*,,,,,,,,
+creation_select_character,Character,,Character,Character,Персонаж,Character,Character,Character,Character,Character
+creation_profession,Profession,,Profession,Profession,Профессия,Profession,Profession,Profession,Profession,Profession
+creation_more_profession_to_unlock,{[0]} more to unlock.[i2p_Zero]All professions were unlocked. More to come in update.[i2p_One]One more to unlock.[i2p_Two]Two more to unlock.[i2p_Few] {[0]} more to unlock.[i2p_Many]{[0]} more to unlock.,Professions,{[0]} more to unlock.[i2p_Zero]All professions were unlocked. More to come in update.[i2p_One]One more to unlock.[i2p_Two]Two more to unlock.[i2p_Few] {[0]} more to unlock.[i2p_Many]{[0]} more to unlock.,{[0]} more to unlock.[i2p_Zero]All professions were unlocked. More to come in update.[i2p_One]One more to unlock.[i2p_Two]Two more to unlock.[i2p_Few] {[0]} more to unlock.[i2p_Many]{[0]} more to unlock.,Ещё {[0]} не открытых профессии.[i2p_Zero]Все открыты.[i2p_One]Осталась одна не открытая профессия.[i2p_Two]Осталось две не открытых профессии.[i2p_Few] {[0]} не открытых професии.[i2p_Many]{[0]} не открытых профессий.,{[0]} more to unlock.[i2p_Zero]All professions were unlocked. More to come in update.[i2p_One]One more to unlock.[i2p_Two]Two more to unlock.[i2p_Few] {[0]} more to unlock.[i2p_Many]{[0]} more to unlock.,{[0]} more to unlock.[i2p_Zero]All professions were unlocked. More to come in update.[i2p_One]One more to unlock.[i2p_Two]Two more to unlock.[i2p_Few] {[0]} more to unlock.[i2p_Many]{[0]} more to unlock.,{[0]} more to unlock.[i2p_Zero]All professions were unlocked. More to come in update.[i2p_One]One more to unlock.[i2p_Two]Two more to unlock.[i2p_Few] {[0]} more to unlock.[i2p_Many]{[0]} more to unlock.,{[0]} more to unlock.[i2p_Zero]All professions were unlocked. More to come in update.[i2p_One]One more to unlock.[i2p_Two]Two more to unlock.[i2p_Few] {[0]} more to unlock.[i2p_Many]{[0]} more to unlock.,{[0]} more to unlock.[i2p_Zero]All professions were unlocked. More to come in update.[i2p_One]One more to unlock.[i2p_Two]Two more to unlock.[i2p_Few] {[0]} more to unlock.[i2p_Many]{[0]} more to unlock.
+creation_select_map_size,Map size,,Map size,Map size,Размер карты,Map size,Map size,Map size,Map size,Map size
+,,,,,,,,,,
+,,,,,,,,,,
+,,*Bodyparts*,,,,,,,,
+,,,,,,,,,,
+bodypart_head_name,head,need translation,head,head,голова,head,head,head,head,head
+bodypart_head_desc,your head. You use it to eat and think,need translation,your head. You use it to eat and think,your head. You use it to eat and think,ваша голова. Вы в неё едите и ею думаете,your head. You use it to eat and think,your head. You use it to eat and think,your head. You use it to eat and think,your head. You use it to eat and think,your head. You use it to eat and think
+bodypart_head_map,someones head without body,need translation,someones head without body,someones head without body,чья-то голова отделенная от тела,someones head without body,someones head without body,someones head without body,someones head without body,someones head without body
+bodypart_leg_name,leg,need translation,leg,leg,нога,leg,leg,leg,leg,leg
+bodypart_leg_desc,your leg. You need it to walk,need translation,leg,leg,"ваша нога. Они нужны, чтобы ходить",leg,leg,leg,leg,leg
+bodypart_leg_map,someones leg,need translation,someones leg,someones leg,чья-то нога,someones leg,someones leg,someones leg,someones leg,someones leg
+bodypart_torso_name,torso,need translation,torso,torso,торс,torso,torso,torso,torso,torso
+bodypart_torso_desc,"it's your torso, it holds a lot of vital organs",need translation,"it's your torso, it holds a lot of vital organs","it's your torso, it holds a lot of vital organs","это ваш торс, в нём находятся жизненноважные органы","it's your torso, it holds a lot of vital organs","it's your torso, it holds a lot of vital organs","it's your torso, it holds a lot of vital organs","it's your torso, it holds a lot of vital organs","it's your torso, it holds a lot of vital organs"
+bodypart_torso_map,someones torso,need translation,someones torso,someones torso,чей-то торс,someones torso,someones torso,someones torso,someones torso,someones torso
+organ_brain_name,brain,,brain,brain,мозг,brain,brain,brain,brain,brain
+organ_brain_desc,brain,,brain,brain,мозг,brain,brain,brain,brain,brain
+organ_brain_map,someones brain,,someones brain,someones brain,чей-то мозг,brain,someones brain,someones brain,someones brain,someones brain
+,{[0]}more to unlock.[i2p_Zero]All unlocked.[i2p_One]One more to unlock.[i2p_Two]{[0]} more to unlock.[i2p_Few] {[0]} more to unlock.[i2p_Many]{[0]} more to unlock.,,,,,,,,,
+,,*Skills*,,,,,,,,
+skill_athletics_name,athletics,need translation,athletics,athletics,атлецизм,athletics,athletics,athletics,athletics,athletics
+skill_athletics_desc,athletics skills description,need translation,athletics skills description,athletics skills description,описание навыка атлецизм,athletics skills description,athletics skills description,athletics skills description,athletics skills description,athletics skills description
+skill_combat_name,combat,need translation,combat,combat,бой,combat,combat,combat,combat,combat
+skill_combat_desc,combat skill description,need translation,combat skill description,combat skill description,описание навыка бой,combat skill description,combat skill description,combat skill description,combat skill description,combat skill description
+,,,,,,,,,,
+,,*Creature*,,,,,,,,
+creature_pioneer_name,Space Pioneer,,Space Pioneer,Space Pioneer,Космический Пионер,Space Pioneer,Space Pioneer,Space Pioneer,Space Pioneer,Space Pioneer
+creature_pioneer_desc,Pioneers are the first thousand colonist that are awake at the very landing of the colony ship. It's their task to set up colony base camp.,,Pioneers are the first thousand colonist that are awake at the very landing of the colony ship. It's their task to set up colony base camp.,Pioneers are the first thousand colonist that are awake at the very landing of the colony ship. It's their task to set up colony base camp.,Pioneers are the first thousand colonist that are awake at the very landing of the colony ship. It's their task to set up colony base camp.,Pioneers are the first thousand colonist that are awake at the very landing of the colony ship. It's their task to set up colony base camp.,Pioneers are the first thousand colonist that are awake at the very landing of the colony ship. It's their task to set up colony base camp.,Pioneers are the first thousand colonist that are awake at the very landing of the colony ship. It's their task to set up colony base camp.,Pioneers are the first thousand colonist that are awake at the very landing of the colony ship. It's their task to set up colony base camp.,Pioneers are the first thousand colonist that are awake at the very landing of the colony ship. It's their task to set up colony base camp.
+creature_colonist_name,Colonist,Colonist,Colonist,Colonist,Колонист,Colonist,Colonist,Colonist,Colonist,Colonist
+creature_colonist_desc,Their task is to tame new workd for humanity.,Their task is to tame new workd for humanity.,Their task is to tame new workd for humanity.,Their task is to tame new workd for humanity.,Their task is to tame new workd for humanity.,Their task is to tame new workd for humanity.,Their task is to tame new workd for humanity.,Their task is to tame new workd for humanity.,Their task is to tame new workd for humanity.,Their task is to tame new workd for humanity.
+,,*Achievements*,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,*Unlocks*,,,,,,,,
+,,,,,,,,,,
+verb_unlocked,unlocked,something unlocked,unlocked,unlocked,открыт,unlocked,unlocked,unlocked,unlocked,unlocked
+verb_now_avaliable,now avaliable,something now avaliable,now avaliable,now avaliable,доступен,now avaliable,now avaliable,now avaliable,now avaliable,now avaliable
+verb_unlocked_f,unlocked,femenitive ,unlocked,unlocked,открыта,unlocked,unlocked,unlocked,unlocked,unlocked
+verb_now_avaliable_f,now avaliable,femenitive ,now avaliable,now avaliable,доступена,now avaliable,now avaliable,now avaliable,now avaliable,now avaliable
+unlock_mapS_name,small map,Small size map unlocked,small map,small map,маленькая карта,small map,small map,small map,small map,small map
+unlock_tier1_player_name,colonist character,,colonist character,colonist character,персонах колонист,colonist character,colonist character,colonist character,colonist character,colonist character
+,,,,,,,,,,
+,,,,,,,,,,
+,,*editor*,,,,,,,,
+map_editor_title,Map Editor,need translation,Map Editor,Map Editor,Редактор Карты,Map Editor,Map Editor,Map Editor,Map Editor,Map Editor
+map_editor_import,load,need translation,load,load,загрузить,load,load,load,load,load
+map_editor_export,save,need translation,save,save,сохранить,save,save,save,save,save
+mao_editor_paste_tiles,edit tiles,need translation,edit tiles,edit tiles,редактировать тайлы,edit tiles,edit tiles,edit tiles,edit tiles,edit tiles
+mao_editor_new_map,new map,need translation,new map,new map,новая карта,new map,new map,new map,new map,new map
+map_editor_tile_empty,empty,need translation,empty,empty,пусто,empty,empty,empty,empty,empty
+map_editor_tile_blocker,blocker,need translation,blocker,blocker,блокер,blocker,blocker,blocker,blocker,blocker
+map_editor_tile_door,door,need translation,door,door,дверь,door,door,door,door,door
+map_editor_tile_room,room,need translation,room,room,комната,room,room,room,room,room
+map_editor_tile_corridor,corridor,need translation,corridor,corridor,коридор,corridor,corridor,corridor,corridor,corridor
+map_editor_note_corridor placement,Corridor could be placed near blocker or other corridor.,need translation,Corridor could be placed near blocker or other corridor.,Corridor could be placed near blocker or other corridor.,Коридор можно размещать только рядом с блокером или другим коридором.,Corridor could be placed near blocker or other corridor.,Corridor could be placed near blocker or other corridor.,Corridor could be placed near blocker or other corridor.,Corridor could be placed near blocker or other corridor.,Corridor could be placed near blocker or other corridor.
+map_editor_warning_delete_work,Are you sure? It will eraze all unsaved work.,need translation,Are you sure? It will eraze all unsaved work.,Are you sure? It will eraze all unsaved work.,Вы уверены? Вся несохранённая работа будет удалена.,Are you sure? It will eraze all unsaved work.,Are you sure? It will eraze all unsaved work.,Are you sure? It will eraze all unsaved work.,Are you sure? It will eraze all unsaved work.,Are you sure? It will eraze all unsaved work.
+map_editor_warining_file_already_exists,"File ""{[0]}"" already exists. Overwrite?",need translation,"File ""{[0]}"" already exists. Overwrite?","File ""{[0]}"" already exists. Overwrite?","Файл ""{[0]}"" уже существует. Перезаписать?","File ""{[0]}"" already exists. Overwrite?","File ""{[0]}"" already exists. Overwrite?","File ""{[0]}"" already exists. Overwrite?","File ""{[0]}"" already exists. Overwrite?","File ""{[0]}"" already exists. Overwrite?"
+map_editor_warning_file_doesnt_exist,"File ""{[0]}"" doesn't exist. Check file name.",need translation,"File ""{[0]}"" doesn't exist. Check file name.","File ""{[0]}"" doesn't exist. Check file name.","Файл ""{[0]}"" не существует. Проверьте имя файла.","File ""{[0]}"" doesn't exist. Check file name.","File ""{[0]}"" doesn't exist. Check file name.","File ""{[0]}"" doesn't exist. Check file name.","File ""{[0]}"" doesn't exist. Check file name.","File ""{[0]}"" doesn't exist. Check file name."
+map_editor_error_map_size_too_small,Error. Map size is too small. Minimal size is {[0]}.,need translation,Error. Map size is too small. Minimal size is {[0]}.,Error. Map size is too small. Minimal size is {[0]}.,Error. Map size is too small. Minimal size is {[0]}.,Error. Map size is too small. Minimal size is {[0]}.,Error. Map size is too small. Minimal size is {[0]}.,Error. Map size is too small. Minimal size is {[0]}.,Error. Map size is too small. Minimal size is {[0]}.,Error. Map size is too small. Minimal size is {[0]}.
+map_editor_error_map_size_not_div_2,Error. Map block should be div 2.,need translation,Error. Map block should be div 2.,Error. Map block should be div 2.,Error. Map block should be div 2.,Error. Map block should be div 2.,Error. Map block should be div 2.,Error. Map block should be div 2.,Error. Map block should be div 2.,Error. Map block should be div 2.
+map_editor_tip_use_right_btn_to_paste,Press and right mouse button to paste selected tile.,need translation,Press and right mouse button to paste selected tile.,Press and right mouse button to paste selected tile.,"Нажмите и удерживайте правую кнопку мыши, чтобы рисовать выбраным тайлом.",Press and right mouse button to paste selected tile.,Press and right mouse button to paste selected tile.,Press and right mouse button to paste selected tile.,Press and right mouse button to paste selected tile.,Press and right mouse button to paste selected tile.
+map_editor_size,size,need translation,size,size,размер,size,size,size,size,size
+map_editor_btn_create_room,create a room,need translation,create a room,create a room,создать комнату,create a room,create a room,create a room,create a room,create a room
+map_editor_tip_rooms,Use mouse wheel to browse through room patters and right click to apply pattern.,need translation,Use mouse wheel to browse through room patters and right click to apply pattern.,Use mouse wheel to browse through room patters and right click to apply pattern.,"Используйте колесо мыши, чтобы выбрать паттерн комнаты и правый клик, чтобы разместить комнату.",Use mouse wheel to browse through room patters and right click to apply pattern.,Use mouse wheel to browse through room patters and right click to apply pattern.,Use mouse wheel to browse through room patters and right click to apply pattern.,Use mouse wheel to browse through room patters and right click to apply pattern.,Use mouse wheel to browse through room patters and right click to apply pattern.
+map_editor_add_new_room_pattern,add new size pattern,need translation,add new size pattern,add new size pattern,добавить новый паттерн,add new size pattern,add new size pattern,add new size pattern,add new size pattern,add new size pattern
+map_editor_patterns_total,total patterns,need translation,total patterns,total patterns,всего паттернов,total patterns,total patterns,total patterns,total patterns,total patterns
+map_editor_tiles,tiles,need translation,tiles,tiles,тайлы,tiles,tiles,tiles,tiles,tiles
+map_editor_rooms,rooms,need translation,rooms,rooms,комнаты,rooms,rooms,rooms,rooms,rooms
+map_editor_warning_patter_alredy_exists,pattern of this size already exists,need translation,pattern of this size already exists,pattern of this size already exists,паттерн такого размера уже существует,pattern of this size already exists,pattern of this size already exists,pattern of this size already exists,pattern of this size already exists,pattern of this size already exists
+map_editor_tip_new_room_size,"enter size of the new pattern and press ""ok"". Room size should be from {[0]}/{[1]} to {[2]}/{[3]}.",need translation,"enter size of the new pattern and press ""ok"". Room size should be from {[0]}/{[1]} to {[2]}/{[3]}.","enter size of the new pattern and press ""ok"". Room size should be from {[0]}/{[1]} to {[2]}/{[3]}.","введите размер и нажмите ""ok"". Размер должен быть в пределах от {[0]}/{[1]} до {[2]}/{[3]}.","enter size of the new pattern and press ""ok"". Room size should be from {[0]}/{[1]} to {[2]}/{[3]}.","enter size of the new pattern and press ""ok"". Room size should be from {[0]}/{[1]} to {[2]}/{[3]}.","enter size of the new pattern and press ""ok"". Room size should be from {[0]}/{[1]} to {[2]}/{[3]}.","enter size of the new pattern and press ""ok"". Room size should be from {[0]}/{[1]} to {[2]}/{[3]}.","enter size of the new pattern and press ""ok"". Room size should be from {[0]}/{[1]} to {[2]}/{[3]}."
+map_editor_cancel_room,cancel room,need translation,cancel room,cancel room,отменить комнату,cancel room,cancel room,cancel room,cancel room,cancel room
+map_editor_rotate_room,rotate,need translation,rotate,rotate,вращать,rotate,rotate,rotate,rotate,rotate
+map_editor_tip_room_placement,place room tip,need translation,place room tip,place room tip,подсказка,place room tip,place room tip,place room tip,place room tip,place room tip
+map_editor_move_room,move room,replace or move to other location.,move room,move room,переместить комнату,move room,move room,move room,move room,move room
+map_editor_change_pattern,pattern,pattern,pattern,pattern,паттерн,pattern,pattern,pattern,pattern,pattern
