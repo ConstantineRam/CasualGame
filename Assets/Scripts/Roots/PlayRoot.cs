@@ -31,6 +31,9 @@ public class PlayRoot : RootBase
   //---------------------------------------------------------------------------------------------------------------
   private void Start()
   {
+    Game.Swipe.ResetLimits();
+    Game.Swipe.SetInitiaAngle(135);
+    Game.Events.SessionEnded.Listen(this.SessionEnd);
     Game.PlayRoot = this;
     Game.Settings.SessionMoney = 0;
     if (!Game.AudioManager.HasActiveMusic())
@@ -38,16 +41,17 @@ public class PlayRoot : RootBase
       Game.AudioManager.PlayMusic(AudioId.Music, loop: true);
     }
 
-    this.PauseSession();
     this.TasksController.CreateTasks();
-    return;
 
-    Game.Events.SessionEnded.Listen(this.SessionEnd);
+    
 
     if (Game.Settings.IsFirstLaunch)
     {
-
+      FlexiblePopUp.Instantiate("StartTip", Game.Canvas.transform, lockTime: 1.6f);
+      Game.Settings.IsFirstLaunch = false;
     }
+
+
   }
   #endregion
 
@@ -88,9 +92,8 @@ public class PlayRoot : RootBase
   {
     this.PauseSession();
 
-
+    FlexiblePopUp.Instantiate("SessionResult", Game.Canvas.transform, lockTime: 1f ).OnClose(()=> { Game.StateManager.SetState(GameState.Menu); } );
     Game.AudioManager.PlaySound(AudioId.GongLow);
-    Game.TimerManager.Start(0.5f, () => {Game.StateManager.SetState(GameState.Menu); });
     
   }
   #endregion

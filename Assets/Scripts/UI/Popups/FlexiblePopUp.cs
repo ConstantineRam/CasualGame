@@ -39,7 +39,7 @@ public class FlexiblePopUp : MonoBehaviour
 
     if (parent == null)
     {
-    //  parent = Game.StateManager
+      parent = Game.Canvas.transform;
     }
 
     

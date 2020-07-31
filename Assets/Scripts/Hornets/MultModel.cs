@@ -56,9 +56,6 @@ namespace GameBase
     [SerializeField]
     private GameObject ModelObject;
     public GameObject GetModelObject => this.ModelObject;
-    [SerializeField]
-    private Sprite UISprite;
-    public Sprite GetUISprite => this.UISprite;
   }
 
   public static class SingleModelUtils

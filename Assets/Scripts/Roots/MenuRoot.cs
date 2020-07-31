@@ -12,9 +12,8 @@ public class MenuRoot : RootBase
   //---------------------------------------------------------------------------------------------------------------
   private void Start()
   {
-    OnStartActionPressed();
-
-    return;
+    Game.Swipe.SetLimits(-194, -155);
+    Game.Swipe.SetInitiaAngle(-176);
     if (!Game.AudioManager.HasActiveMusic())
     {
       Game.AudioManager.PlayMusic(AudioId.Music, loop: true);

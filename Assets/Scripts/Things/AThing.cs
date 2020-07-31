@@ -9,7 +9,7 @@ namespace Things
   /// <summary>
   /// Basic class for all clickable 3D objects for our hyper casual games.
   /// </summary>
-  public abstract class AThing : MonoBehaviour
+  public abstract class AThing : MonoBehaviour, IVanishable
   {
     
     #region Internal data
@@ -29,7 +29,7 @@ namespace Things
     //---------------------------------------------------------------------------------------------------------------
     public virtual void Vanish()
     {
-      Destroy(this);
+      Destroy(this.gameObject);
     }
 
     #region MonoBehaviour

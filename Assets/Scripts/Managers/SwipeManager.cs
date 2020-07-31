@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using TouchSimulator;
- 
+
 public class SwipeManager : MonoBehaviour
 {
   private const float SwipeCheckValue = 0.906f;
@@ -13,12 +13,36 @@ public class SwipeManager : MonoBehaviour
   private float X_Angle = 0;
   private float Y_Angle = 0;
 
+  private float MinY = 0;
+  private float MaxY = 0;
+  public bool HasLimits { get; private set; }
+  #region MonoBehaviour
   //---------------------------------------------------------------------------------------------------------------
   void Update()
   {
     DetectSwipe();
   }
+  #endregion
+  //---------------------------------------------------------------------------------------------------------------
+  public void SetInitiaAngle(float Angle = 0)
+  {
+    this.X_Angle = Angle;
+    this.Y_Angle = Angle;
+  }
+  //---------------------------------------------------------------------------------------------------------------
+  public void SetLimits(float min, float max)
+  {
+    this.HasLimits = true;
+    this.MinY = min;
+    this.MaxY = max;
 
+  }
+
+  //---------------------------------------------------------------------------------------------------------------
+  public void ResetLimits()
+  {
+    this.HasLimits = false;
+  }
   //---------------------------------------------------------------------------------------------------------------
   private void DetectSwipe()
   {
@@ -52,6 +76,12 @@ public class SwipeManager : MonoBehaviour
       X_Angle = X_AngleTemp + (secondPressPos.x - firstPressPos.x) * 180 / Screen.width;
       Y_Angle = Y_AngleTemp + (secondPressPos.y - firstPressPos.y) * 90 / Screen.height;
       Vector3 v = Game.Camera.transform.rotation.eulerAngles;
+
+      if (HasLimits)
+      {
+        X_Angle = Mathf.Max(X_Angle, this.MinY);
+        X_Angle = Mathf.Min(X_Angle, this.MaxY);
+      }
       Game.Camera.transform.rotation = Quaternion.Euler(v.x, X_Angle,v.z);
     }
 

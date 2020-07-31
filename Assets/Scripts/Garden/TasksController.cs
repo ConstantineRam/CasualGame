@@ -44,6 +44,8 @@ namespace GameBase
       }
 
       SingleTask task = this.Tasks.FirstOrDefault(t => !t.Fulfilled && t.Model.IsEqual(veggie.CurrentModel));
+
+
       if (task == null)
       {
         this.WrongClick();
@@ -55,6 +57,7 @@ namespace GameBase
 
       if (!this.HasMoreTasks)
       {
+        Game.Events.SessionEnded.Invoke();
       }
     }
 
