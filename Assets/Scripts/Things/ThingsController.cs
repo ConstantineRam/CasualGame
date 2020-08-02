@@ -25,15 +25,20 @@ namespace Things
     //---------------------------------------------------------------------------------------------------------------
     protected virtual void OnStart()
     {
-      this.ProcessChildrenThings();
+
     }
     #endregion
 
     #region Private logic
     //---------------------------------------------------------------------------------------------------------------
-    private void ProcessChildrenThings()
+    public void ProcessChildrenThings()
     {
-      this.Things.AddRange(this.GetComponentsInChildren<AThing>());
+      List<AThing> foundThings = Game.PlayRoot.World.Things.GetComponentsInChildren<AThing>().ToList();
+#if UNITY_EDITOR
+      Debug.Log(" Found " + foundThings.Count() + " things in the world.");
+#endif
+      this.Things.AddRange(foundThings.FindAll(t => t.gameObject.activeSelf).ToList());
+      
 
       if (this.Things.Count < 1)
       {

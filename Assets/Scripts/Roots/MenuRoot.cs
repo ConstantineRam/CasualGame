@@ -1,8 +1,11 @@
 ﻿using GameBase;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MenuRoot : RootBase
 {
+  [SerializeField]
+  private Text LevelText;
   public readonly Signal UpdateUnlocksRequest = new Signal();
   #region Internal data
 
@@ -12,11 +15,12 @@ public class MenuRoot : RootBase
   //---------------------------------------------------------------------------------------------------------------
   private void Start()
   {
+    this.LevelText.text = "Level " + Game.Settings.GameProgress.ToString();
     Game.Swipe.SetLimits(-194, -155);
     Game.Swipe.SetInitiaAngle(-176);
     if (!Game.AudioManager.HasActiveMusic())
     {
-      Game.AudioManager.PlayMusic(AudioId.Music, loop: true);
+      Game.AudioManager.PlayMusic(AudioId.Music, loop: true, volume: DefaultContent.DefaultMusicVolume);
     }
 
     Game.MenuRoot = this;

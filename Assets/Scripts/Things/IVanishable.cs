@@ -7,5 +7,6 @@ namespace Things
   public interface IVanishable
   {
     void Vanish();
+    bool IsVanished { get; }
   }
 }

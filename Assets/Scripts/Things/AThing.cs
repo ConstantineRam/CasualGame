@@ -15,11 +15,14 @@ namespace Things
     #region Internal data
     [SerializeField]
     [Tooltip("Assign MultModel script that contains models you want to object to use.")]
-    private MultModel Models;
+    protected MultModel Models;
     #endregion
 
     public bool HasMultipleModels => this.Models != null;
     public SingleModel CurrentModel => this.HasMultipleModels ? this.Models.CurrentModel : null;
+
+    [SerializeField]
+    private Collider MyCollider;
     // TODO: TBD
     //[SerializeField]
     //[Tooltip("Uncheck if you plan to manually assign model.")]
@@ -27,8 +30,17 @@ namespace Things
     //public bool IsRandomModel => this.RandomModel;
 
     //---------------------------------------------------------------------------------------------------------------
+    private bool Vanished = false;
+    public bool IsVanished { get => this.Vanished; protected set => this.Vanished = value; }
+
+    //---------------------------------------------------------------------------------------------------------------
     public virtual void Vanish()
     {
+      if (this.IsVanished)
+      {
+        return;
+      }
+      this.Vanished = true;
       Destroy(this.gameObject);
     }
 
@@ -39,6 +51,11 @@ namespace Things
       if (Models == null)
       {
         this.Models = this.GetComponent<MultModel>();
+      }
+
+      if (this.MyCollider == null)
+      {
+        this.MyCollider = this.GetComponent<Collider>();
       }
 
       this.AssignModel();
@@ -53,6 +70,7 @@ namespace Things
     #endregion
 
     #region Private logic
+    
     //---------------------------------------------------------------------------------------------------------------
     protected virtual void OnUpdate()
     {
@@ -97,6 +115,11 @@ namespace Things
     #endregion
 
     #region Protected logic
+    //---------------------------------------------------------------------------------------------------------------
+    protected void DisableCollider()
+    {
+      this.MyCollider.enabled = false;
+    }
     //---------------------------------------------------------------------------------------------------------------
     protected virtual void OnAwake() {}
     //---------------------------------------------------------------------------------------------------------------

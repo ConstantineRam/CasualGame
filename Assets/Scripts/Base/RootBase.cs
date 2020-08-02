@@ -14,8 +14,10 @@ public class RootBase : MonoBehaviour
     onRootUnloaded = new Signal();
 
     roots = SceneManager.GetActiveScene().GetRootGameObjects();
+    this.OnAwake();
   }
-
+  //---------------------------------------------------------------------------------------------------------------
+  protected virtual void OnAwake() { }
   //---------------------------------------------------------------------------------------------------------------
   private void Activate()
   {
@@ -27,6 +29,7 @@ public class RootBase : MonoBehaviour
       foreach (var root in roots)
         root.SetActive(true);
   }
+  //---------------------------------------------------------------------------------------------------------------
   private void Deactivate()
   {
     if (GetType() == typeof(RootBase))
@@ -35,7 +38,7 @@ public class RootBase : MonoBehaviour
     }
     if (roots != null)
       foreach (var root in roots)
-        root.SetActive(false);
+      root.SetActive(false);
   }
   //---------------------------------------------------------------------------------------------------------------
   public void Load()
@@ -46,7 +49,7 @@ public class RootBase : MonoBehaviour
   //---------------------------------------------------------------------------------------------------------------
   public virtual void Unload()
   {
-    Deactivate();
+    //Deactivate(); It's for the purpose to have more than one root in a scene
 
     onRootUnloaded.Invoke();
 

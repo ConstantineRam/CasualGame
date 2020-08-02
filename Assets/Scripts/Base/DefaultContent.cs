@@ -4,10 +4,11 @@ namespace GameBase
   [StaticConstructorOnStartup]
   public static class DefaultContent
   {
+    public static readonly float DefaultMusicVolume = 0.45f;
     public static readonly float DefaultActionCooldown = 0.2f;
     public static readonly float PlayerActionCooldown = DefaultActionCooldown;
     public static readonly float DefaultMoveSpeed = 0.5f;
-    public static readonly int DefaultTargetReward = 10;
+    public static readonly int DefaultTargetReward = 100;
     public static readonly int RewardAvoidSpider = 5;
     public static readonly int LevelsWithoutAds = 4;
     public static readonly float PlayerMoveSpeed = DefaultMoveSpeed;

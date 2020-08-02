@@ -36,6 +36,30 @@ public enum AudioId
 
   [Description("Audio/Sound/Plop")]
   Plop = 210,
-  
 
+  [Description("Audio/Sound/RubberBear")]
+  RubberBear = 220,
+
+  [Description("Audio/Sound/PlateShakeLow")]
+  PlateShakeLow = 230,
+
+  [Description("Audio/Sound/MetalTiny11")]
+  MetalTiny11 = 240,
+  [Description("Audio/Sound/PlasticBtn26")]
+  PlasticBtn26 = 250,
+
+  [Description("Audio/Sound/ArcadePositive08")]
+  ArcadePositive08 = 260,
+
+  [Description("Audio/Sound/PositiveClick16")]
+  PositiveClick16 = 270,
+
+  [Description("Audio/Sound/ClickNegative11")]
+  ClickNegative11 = 280,
+
+  [Description("Audio/Sound/ClickNegative16")]
+  ClickNegative16 = 290,
+
+  [Description("Audio/Sound/ArcadeNegative07")]
+  ArcadeNegative07 = 300,
 }

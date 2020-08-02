@@ -54,13 +54,16 @@ namespace Assets.Scripts.Utils.ExtensionMethods
     /// <summary>
     /// Sets RectTransform object to location on the screen based on non Untiy.UI coords.
     /// </summary>
-    public static void MoveToWorldPosition(this RectTransform t, Vector2 pos, Canvas UsedCanvas)
+    public static void MoveToWorldPosition(this RectTransform t, Vector3 pos, Canvas UsedCanvas)
     {
+
+
       Vector2 viewport_position = Game.Camera.WorldToViewportPoint(pos);
       RectTransform canvas_rect = (UsedCanvas.transform as RectTransform);
       Vector2 result = new Vector2((viewport_position.x * canvas_rect.sizeDelta.x) - (canvas_rect.sizeDelta.x * 0.5f),
                                    (viewport_position.y * canvas_rect.sizeDelta.y) - (canvas_rect.sizeDelta.y * 0.5f));
-      t.MoveTo(result);
+      //t.MoveTo(result);
+      t.anchoredPosition = result;
     }
 
 

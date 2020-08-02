@@ -55,7 +55,11 @@ public class FlexiblePopUp : MonoBehaviour
     result.TimerLock = true;
     result.LockTimer = Game.TimerManager.Start(result.LockTime, callback: () => { result.UnlockSelf(); });
 
-
+    if (data != null)
+    {
+      result.Activate(data);
+    }
+    
     return result;
 
 
@@ -69,9 +73,16 @@ public class FlexiblePopUp : MonoBehaviour
     this.Callback = null;
     this.CloseSelf();
   }
-
   //---------------------------------------------------------------------------------------------------------------
-    public void CloseSelf()
+  public virtual void Activate(object data = null)
+  {
+    if (data != null)
+    {
+      Debug.LogError("Data was passed to popup " + this.name + ", but it has no logic to process it.");
+    }
+  }
+  //---------------------------------------------------------------------------------------------------------------
+  public void CloseSelf()
   {
 
     if (this.LockTimer != null)
@@ -130,6 +141,7 @@ public class FlexiblePopUp : MonoBehaviour
   }
 #endregion
 }
+
 public delegate void FlexiblePopUpCallback();
 
 public static class FlexiblePopUpUtils

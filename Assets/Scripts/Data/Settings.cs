@@ -6,7 +6,7 @@ using System.Linq;
 
 public class Settings
 {
-  [PlayerPrefsValue("GameProgress", 0)]
+  [PlayerPrefsValue("GameProgress", 1)]
   private int gameProgress;
   public int GameProgress { get { return gameProgress; } set { gameProgress = value; SaveSettings(); } }
 
@@ -42,6 +42,10 @@ public class Settings
   [PlayerPrefsValue("musicEnabled", true)]
   private bool musicEnabled;
   public bool MusicEnabled { get { return musicEnabled; } set { musicEnabled = value; Game.Events.MusicEnabled.Invoke(musicEnabled); SaveSettings(); } }
+
+  [PlayerPrefsValue("vibrationEnabled", true)]
+  private bool vibrationEnabled;
+  public bool VibrationEnabled { get { return vibrationEnabled; } set { vibrationEnabled = value; SaveSettings(); } }
 
   [PlayerPrefsValue("BestScore", 0)]
   private int bestScore;

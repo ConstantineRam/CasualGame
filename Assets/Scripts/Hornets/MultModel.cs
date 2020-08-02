@@ -36,10 +36,8 @@ namespace GameBase
       this.name = this.ModelObject.name;
 
     }
-
-    #region Private Logic
     //---------------------------------------------------------------------------------------------------------------
-    private void ClearModel()
+    public void ClearModel()
     {
       if (this.HasActiveModel)
       {
@@ -48,6 +46,9 @@ namespace GameBase
         this.name = DefaultContent.blank;
       }
     }
+
+    #region Private Logic
+
     #endregion
   }
   [Serializable]
