@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using GameBase;
 using UnityEngine;
+using Extensions;
 
 namespace Things
 {
@@ -37,7 +38,7 @@ namespace Things
 #if UNITY_EDITOR
       Debug.Log(" Found " + foundThings.Count() + " things in the world.");
 #endif
-      this.Things.AddRange(foundThings.FindAll(t => t.gameObject.activeSelf).ToList());
+      this.Things.AddRange(foundThings.FindAll(t => t.gameObject.activeSelf && t.IsSpawned).ToList());
       
 
       if (this.Things.Count < 1)
@@ -57,16 +58,50 @@ namespace Things
 
     }
     #endregion
-
+    //---------------------------------------------------------------------------------------------------------------
+    public bool SetColliderState
+    {
+      set
+      {
+        foreach (AThing thing in this.Things)
+        {
+          thing.SetColliderState = value;
+        }
+      }
+      
+    }
     //---------------------------------------------------------------------------------------------------------------
     public List<SingleModel> GetTasks(int amount)
     {
       List<SingleModel> result = new List<SingleModel>();
 
+      if (this.Things.Count() < amount)
+      {
+        Debug.LogError("Unexpected error. Things Controller got request for "+ amount + " tasks, but it has only "+this.Things.Count() +" things.");
+      }
       amount = Mathf.Min(amount, this.Things.Count);
+
+      
       for (int i = 0; i < amount; i++)
       {
-        result.Add(this.Things.ElementAt(i).CurrentModel );
+        AThing found = null;
+        int security = 0;
+        while (true)
+        {
+          security++;
+          found = this.Things.GetRandom();
+          if (!result.Contains(found.CurrentModel))
+          {
+            break;
+          }
+
+          if (!LoopSecurity.IsOkay(ref security))
+          {
+            break;
+          }
+        }
+
+        result.Add(found.CurrentModel);
       }
 
       return result;

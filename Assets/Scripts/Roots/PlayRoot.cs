@@ -31,7 +31,7 @@ public class PlayRoot : RootBase
   private CurrencyController currency;
   public CurrencyController Currency => currency;
 
-  private bool SessionEnded = false;
+  public bool SessionEnded { get; private set; } = false;
 
   #endregion
 
@@ -46,9 +46,10 @@ public class PlayRoot : RootBase
   //---------------------------------------------------------------------------------------------------------------
   private void Start()
   {
-    
-    Game.Swipe.ResetLimits();
-    Game.Swipe.SetInitiaAngle(135);
+    Game.Swipe.SetLimitsVertical(20, 30);
+    Game.Swipe.ResetLimitsHorisontal();
+
+    Game.Swipe.SetInitiaAngle(135, 25);
     Game.Events.GameWon.Listen(this.SessionEnd);
     Game.Events.GameLost.Listen(this.SessionFailed);
 
@@ -113,6 +114,7 @@ public class PlayRoot : RootBase
     {
       return;
     }
+    Game.PlayRoot.Things.SetColliderState = false;
     this.SessionEnded = true;
 
     this.PauseSession();
@@ -129,6 +131,7 @@ public class PlayRoot : RootBase
     {
       return;
     }
+    Game.PlayRoot.Things.SetColliderState = false;
     this.SessionEnded = true;
     Game.Settings.GameProgress = Game.Settings.GameProgress + 1;
     this.PauseSession();

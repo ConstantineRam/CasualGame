@@ -2,7 +2,7 @@
 //TODO: PopUps are usefull, but current implementation is ugly. Should be reworked.
 
 using Assets.Scripts.Utils.ExtensionMethods;
-using GameBase;
+using Extensions;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

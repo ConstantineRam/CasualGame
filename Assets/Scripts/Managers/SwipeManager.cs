@@ -15,6 +15,9 @@ public class SwipeManager : MonoBehaviour
 
   private float MinY = 0;
   private float MaxY = 0;
+
+  private float MinX = 20;
+  private float MaxX = 30;
   public bool HasLimits { get; private set; }
   #region MonoBehaviour
   //---------------------------------------------------------------------------------------------------------------
@@ -24,22 +27,28 @@ public class SwipeManager : MonoBehaviour
   }
   #endregion
   //---------------------------------------------------------------------------------------------------------------
-  public void SetInitiaAngle(float Angle = 0)
+  public void SetInitiaAngle(float AngleX = 0, float AngleY = 0)
   {
-    this.X_Angle = Angle;
-    this.Y_Angle = Angle;
+    this.X_Angle = AngleX;
+    this.Y_Angle = AngleY;
   }
   //---------------------------------------------------------------------------------------------------------------
-  public void SetLimits(float min, float max)
+  public void SetLimitsVertical(float minX, float maxX)
+  {
+
+    this.MinX = minX;
+    this.MaxX = maxX;
+  }
+  //---------------------------------------------------------------------------------------------------------------
+  public void SetLimitsHorisontal(float minY, float maxY)
   {
     this.HasLimits = true;
-    this.MinY = min;
-    this.MaxY = max;
-
+    this.MinY = minY;
+    this.MaxY = maxY;
   }
 
   //---------------------------------------------------------------------------------------------------------------
-  public void ResetLimits()
+  public void ResetLimitsHorisontal()
   {
     this.HasLimits = false;
   }
@@ -61,11 +70,32 @@ public class SwipeManager : MonoBehaviour
       X_AngleTemp = X_Angle;
       Y_AngleTemp = Y_Angle;
     }
- 
+
+    if (t.phase == TouchPhase.Ended)
+    {
+      if (Game.StateManager.CurrentState == GameState.Play)
+      {
+        if (Game.PlayRoot.SessionEnded)
+        {
+          return;
+        }
+        Game.PlayRoot.Things.SetColliderState = true;
+      }
+      return;
+    }
 
 
     if (t.phase == TouchPhase.Moved)
     {
+
+      if (Game.StateManager.CurrentState == GameState.Play)
+      {
+        if (Game.PlayRoot.SessionEnded)
+        {
+          return;
+        }
+        Game.PlayRoot.Things.SetColliderState = false;
+      }
       secondPressPos = t.position;
       currentSwipe = new Vector3(secondPressPos.x - firstPressPos.x, secondPressPos.y - firstPressPos.y);
       if (currentSwipe.magnitude < MinSwipeLength)
@@ -73,7 +103,7 @@ public class SwipeManager : MonoBehaviour
         return;
       }
 
-      X_Angle = X_AngleTemp + (secondPressPos.x - firstPressPos.x) * 180 / Screen.width;
+      X_Angle = X_AngleTemp - (secondPressPos.x - firstPressPos.x) * 180 / Screen.width;
       Y_Angle = Y_AngleTemp + (secondPressPos.y - firstPressPos.y) * 90 / Screen.height;
       Vector3 v = Game.Camera.transform.rotation.eulerAngles;
 
@@ -82,14 +112,15 @@ public class SwipeManager : MonoBehaviour
         X_Angle = Mathf.Max(X_Angle, this.MinY);
         X_Angle = Mathf.Min(X_Angle, this.MaxY);
       }
-      Game.Camera.transform.rotation = Quaternion.Euler(v.x, X_Angle,v.z);
+
+      Y_Angle = Mathf.Max(Y_Angle, this.MinX);
+      Y_Angle = Mathf.Min(Y_Angle, this.MaxX);
+
+      Game.Camera.transform.rotation = Quaternion.Euler(Y_Angle, X_Angle,v.z);
     }
 
     return;
-    //if (t.phase != TouchPhase.Ended)
-    //{
-    //  return;
-    //}
+
 
     //secondPressPos = new Vector2(t.position.x, t.position.y);
     //currentSwipe = new Vector3(secondPressPos.x - firstPressPos.x, secondPressPos.y - firstPressPos.y);

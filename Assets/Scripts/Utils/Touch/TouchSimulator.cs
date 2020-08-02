@@ -70,7 +70,6 @@ namespace TouchSimulator
       {
         if (touchSupported)
         {
-          Debug.LogError("Dooh Dooh");
           return UnityEngine.Input.touches;
         }
         else

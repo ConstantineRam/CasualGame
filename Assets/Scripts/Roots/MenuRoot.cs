@@ -16,8 +16,9 @@ public class MenuRoot : RootBase
   private void Start()
   {
     this.LevelText.text = "Level " + Game.Settings.GameProgress.ToString();
-    Game.Swipe.SetLimits(-194, -155);
-    Game.Swipe.SetInitiaAngle(-176);
+    Game.Swipe.SetLimitsVertical(18, 21);
+    Game.Swipe.SetLimitsHorisontal(-194, -155);
+    Game.Swipe.SetInitiaAngle(-166, 12);
     if (!Game.AudioManager.HasActiveMusic())
     {
       Game.AudioManager.PlayMusic(AudioId.Music, loop: true, volume: DefaultContent.DefaultMusicVolume);

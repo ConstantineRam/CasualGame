@@ -1,5 +1,5 @@
 ﻿using System;
-namespace GameBase
+namespace Extensions
 {
   public static class IntEx
   {

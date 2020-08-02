@@ -15,7 +15,7 @@ public class SingleTask : MonoBehaviour
   [SerializeField]
   public GameObject TaskRender;
   public SingleModel Model { get; private set; }
-  public const float TaskRenderScale = 25;
+  public const float TaskRenderScale = 32;
   #endregion
 
   //---------------------------------------------------------------------------------------------------------------

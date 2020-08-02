@@ -11,7 +11,7 @@
 //
 
 using Assets.Scripts.Utils.ExtensionMethods;
-using GameBase;
+using Extensions;
 using DG.Tweening;
 using System;
 using System.Collections.Generic;

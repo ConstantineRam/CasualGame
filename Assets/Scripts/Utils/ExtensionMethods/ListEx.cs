@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace GameBase
+namespace Extensions
 {
   public static class ListEx
   {

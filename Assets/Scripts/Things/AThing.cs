@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿using Extensions;
 using GameBase;
 using UnityEngine;
 
@@ -11,8 +11,12 @@ namespace Things
   /// </summary>
   public abstract class AThing : MonoBehaviour, IVanishable
   {
-    
+
     #region Internal data
+    [SerializeField]
+    [Range(1, 100)]
+    [Tooltip("If less then 100 this Thing has change NOT to be spawned in the scene.")]
+    private int ChanceToAppear = 100;
     [SerializeField]
     [Tooltip("Assign MultModel script that contains models you want to object to use.")]
     protected MultModel Models;
@@ -32,6 +36,26 @@ namespace Things
     //---------------------------------------------------------------------------------------------------------------
     private bool Vanished = false;
     public bool IsVanished { get => this.Vanished; protected set => this.Vanished = value; }
+    //---------------------------------------------------------------------------------------------------------------
+    private bool Spawned = false;
+    /// <summary>
+    /// If false this Thing wasn't spawned. However it still stay in scene invisible for potential use.
+    /// </summary>
+    public bool IsSpawned { get => this.Spawned; protected set => this.Spawned = value; }
+    //---------------------------------------------------------------------------------------------------------------
+    public bool SetColliderState
+    {
+      set
+      {
+        if (this.IsVanished)
+        {
+          return;
+        }
+
+        this.MyCollider.enabled = value;
+      }
+    }
+    
 
     //---------------------------------------------------------------------------------------------------------------
     public virtual void Vanish()
@@ -57,7 +81,17 @@ namespace Things
       {
         this.MyCollider = this.GetComponent<Collider>();
       }
+      if (this.ChanceToAppear < 100)
+      {
+        if (100.RandomTo() > (this.ChanceToAppear+1))
+        {
+          this.Spawned = false;
+          this.SetColliderState = false;
+          return;
+        }
+      }
 
+      this.Spawned = true;
       this.AssignModel();
       this.OnAwake();
     }
@@ -118,7 +152,7 @@ namespace Things
     //---------------------------------------------------------------------------------------------------------------
     protected void DisableCollider()
     {
-      this.MyCollider.enabled = false;
+      this.SetColliderState = false;
     }
     //---------------------------------------------------------------------------------------------------------------
     protected virtual void OnAwake() {}

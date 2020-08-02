@@ -25,6 +25,8 @@ namespace UI
     private const float TimerStep = 0.001f;
     private const float ShakeTime = 0.5f;
     private float CurrentTimer = MaxTimer;
+
+    private readonly int[] Steps = new int[3] {1000, 100, 10};
     public bool Initialized { get; private set; } = false;
     //---------------------------------------------------------------------------------------------------------------
     public void Init(int Amount)
@@ -90,8 +92,10 @@ namespace UI
       }
 
       this.TimerFlag = true;
-      this.CurrentAmount++;
-      this.PushedAmount--;
+
+      int step = this.GetStep();
+      this.CurrentAmount += step;
+      this.PushedAmount -= step;
       this.SetText(this.CurrentAmount);
       
       Game.TimerManager.Start(this.CurrentTimer, () => { this.TimerFlag = false; });
@@ -110,6 +114,19 @@ namespace UI
     private void ResetTimer()
     {
       this.CurrentTimer = this.UpdateSpeed;
+    }
+
+    //---------------------------------------------------------------------------------------------------------------
+    private int GetStep()
+    {
+      foreach (int s in this.Steps)
+      {
+        if (this.PushedAmount - s > 0)
+        {
+          return s;
+        }
+      }
+      return 1;
     }
 
     //---------------------------------------------------------------------------------------------------------------
